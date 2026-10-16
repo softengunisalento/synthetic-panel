@@ -1087,28 +1087,69 @@ def cmd_rating_export(args):
 
 
 def cmd_rating_import(args):
+    """Blind rating of rationales. Each expert rates only the file prepared for them
+    (rating_expert_N.xlsx, without their own rationales)."""
     key = pd.read_csv(OUT / "rating" / "rating_key.csv")
     rows = []
     for f in sorted((OUT / "rating").glob("rating_expert_*.xlsx")):
         d = pd.read_excel(f).merge(key, on="rating_id")
-        d = d[d["plausibility_1to5"].notna()]
-        d["rater"] = f.stem
+        d = d[d["plausibility_1to5"].notna()].copy()
+        d["rater"] = f.stem.replace("rating_", "")
         rows.append(d)
     if not rows:
         log("No rating_expert_*.xlsx found")
         return
-    d = pd.concat(rows)
-    d["source"] = np.where(d.model == "human", "human", "synthetic")
-    d["guess_ok"] = (d["written_by_human_or_AI"].astype(str).str.lower().str.startswith("h")
-                     == (d.source == "human"))
-    out = d.groupby("source").agg(
-        mean_plausibility=("plausibility_1to5", "mean"),
-        share_flagged=("physically_incorrect_yes_no",
-                       lambda s: s.astype(str).str.lower().str.startswith("y").mean()),
-        source_guess_accuracy=("guess_ok", "mean"), n=("rating_id", "size")).reset_index()
+    d = pd.concat(rows, ignore_index=True)
+    d["is_human"] = d.model == "human"
+    d["flag"] = d["physically_incorrect_yes_no"].astype(str).str.strip().str.lower().str.startswith("y")
+    d["judged_human"] = d["written_by_human_or_AI"].astype(str).str.strip().str.lower().str.startswith("h")
+    d.to_csv(OUT / "tables" / "blind_rating_long.csv", index=False)
+
+    def boot_ci(x, n=10_000, seed=SEED):
+        g = x.groupby("rating_id")["plausibility_1to5"].agg(["sum", "size"])
+        rng = np.random.default_rng(seed)
+        idx = rng.integers(0, len(g), size=(n, len(g)))
+        m = g["sum"].values[idx].sum(1) / g["size"].values[idx].sum(1)
+        return np.percentile(m, [2.5, 97.5])
+
+    out = []
+    for src, x in list(d[~d.is_human].groupby("model")) + [("all synthetic", d[~d.is_human]), ("human", d[d.is_human])]:
+        row = {"source": src, "ratings": len(x), "rationales": x.rating_id.nunique(),
+               "mean_plausibility": x.plausibility_1to5.mean(),
+               "share_flagged": x.flag.mean(), "share_judged_human": x.judged_human.mean()}
+        if src in ("all synthetic", "human"):
+            row["plausibility_ci_low"], row["plausibility_ci_high"] = boot_ci(x)
+        out.append(row)
+    out = pd.DataFrame(out)
     out.to_csv(OUT / "tables" / "blind_rating.csv", index=False)
     df_to_latex(out, OUT / "tables" / "tab_blind_rating.tex", "Blind rating of rationales", "tab:rating")
+
+    def bal_acc(x):
+        h, a = x[x.is_human], x[~x.is_human]
+        return pd.Series({"human_judged_human": f"{h.judged_human.sum()}/{len(h)}",
+                          "synthetic_judged_AI": f"{(~a.judged_human).sum()}/{len(a)}",
+                          "balanced_accuracy": (h.judged_human.mean() + (~a.judged_human).mean()) / 2,
+                          "share_judged_human": x.judged_human.mean()})
+    acc = pd.concat([d.groupby("rater").apply(bal_acc, include_groups=False),
+                     bal_acc(d).to_frame("all").T])
+    acc.to_csv(OUT / "tables" / "blind_rating_source_accuracy.csv")
+
+    agree = {}
+    try:
+        import krippendorff
+        syn = d[~d.is_human]
+        for col, level in [("plausibility_1to5", "ordinal"), ("flag", "nominal"), ("judged_human", "nominal")]:
+            mat = syn.pivot_table(index="rater", columns="rating_id", values=col, aggfunc="first").astype(float).values
+            agree[col] = float(krippendorff.alpha(reliability_data=mat, level_of_measurement=level))
+    except Exception as e:  # noqa: BLE001
+        log(f"Krippendorff alpha not computed: {e}")
+    pd.Series(agree, name="krippendorff_alpha").to_csv(OUT / "tables" / "blind_rating_agreement.csv")
+    flagged = (d[~d.is_human].groupby(["rating_id", "model", "item_id"]).flag.sum()
+               .reset_index().query("flag >= 2"))
+    flagged.to_csv(OUT / "tables" / "blind_rating_flagged.csv", index=False)
     log("\n" + out.round(2).to_string(index=False))
+    log("\n" + acc.to_string())
+    log(f"Krippendorff alpha (synthetic rationales): {agree}")
 
 
 # =============================================================================
