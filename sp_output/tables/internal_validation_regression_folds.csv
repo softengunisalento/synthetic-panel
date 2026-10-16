@@ -1,0 +1,19 @@
+model,held_out_wt,MAE
+Ridge regression,10.0,9.192960365006597
+Ridge regression,20.0,2.0403127411616793
+Ridge regression,30.0,2.1592715738177324
+Polynomial Ridge (2nd order),10.0,7.8489538271251975
+Polynomial Ridge (2nd order),20.0,4.153892570770296
+Polynomial Ridge (2nd order),30.0,3.791865859540644
+Linear regression,10.0,8.432090994721838
+Linear regression,20.0,3.2141709851891043
+Linear regression,30.0,5.829911467475674
+Gradient boosting,10.0,10.437228784594136
+Gradient boosting,20.0,2.7713307561488496
+Gradient boosting,30.0,11.418140332011962
+Random forest,10.0,13.206551226551227
+Random forest,20.0,2.4946666666666673
+Random forest,30.0,11.204285714285714
+Mean-prediction baseline,10.0,15.0
+Mean-prediction baseline,20.0,0.0
+Mean-prediction baseline,30.0,15.0

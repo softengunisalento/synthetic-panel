@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+scikit-learn
+imbalanced-learn
+matplotlib
+openpyxl
+requests
+krippendorff
+sentence-transformers
+anthropic
+google-genai

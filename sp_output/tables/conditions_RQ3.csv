@@ -1,0 +1,16 @@
+model,condition,MAE_median_blockA,family_accuracy_blockA,mean_IQR_blockA
+gemma-4-26b-a4b-it,knowledge,7.0,0.33999999999999997,7.5
+gemma-4-26b-a4b-it,main,9.5,0.304,4.95
+gemma-4-26b-a4b-it,nopersona,9.375,0.45600000000000007,
+glm-4.7-flash,knowledge,10.3,0.33199999999999996,13.205000000000002
+glm-4.7-flash,main,14.0,0.278,12.3
+glm-4.7-flash,nopersona,10.370000000000001,0.328,6.4319999999999995
+gpt-oss-20b,knowledge,4.5,0.10800000000000003,8.25
+gpt-oss-20b,main,8.375,0.02,
+gpt-oss-20b,nopersona,8.125,0.04,
+intern-s1-mini,knowledge,8.0,0.552,9.5
+intern-s1-mini,main,11.0,0.598,4.4
+intern-s1-mini,nopersona,10.0,0.608,7.4
+qwen3-vl-8b-instruct,knowledge,8.0,0.45999999999999996,5.5
+qwen3-vl-8b-instruct,main,10.0,0.6,3.0
+qwen3-vl-8b-instruct,nopersona,8.0,0.6,0.0

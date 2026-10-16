@@ -1,0 +1,285 @@
+{
+  "materials_text": "Matrix: PLA Ingeo 4043D (NatureWorks), density 1.24 g/cm3, MFI 6 g/10 min at 210 C.\nFillers: (i) marble waste (MW), a powder obtained by drying the sludge of water-jet cutting of marble,\nheterogeneous particle size; (ii) olive wood waste (OW), a coarse lignocellulosic powder from olive-wood\ncraft production. Both fillers are milled to about 0.25 mm, PLA pellets to about 0.75 mm.\nProcessing: all materials dried at 60 C for 24 h, dry-mixed, extruded with a 3Devo Composer 450 single-screw\nextruder into 1.75 mm filaments, printed with a 1 mm nozzle at 200 C (Creality CP-01).\nTesting: three-point bending, ISO 178, 80 x 10 x 4 mm bars, 2 mm/min, span 64 mm; E = flexural modulus,\nsigma = flexural strength, eps = strain at break. Filler contents are expressed in wt.%.\nKnown processing limit: a formulation with 30 wt.% OW could not be extruded into a continuous filament.",
+  "centroids": [
+    {
+      "material": "MW",
+      "percentage": 10,
+      "flexural_modulus": 3.157,
+      "flexural_strength": 72.072,
+      "strain_at_break": 3.1719999999999997,
+      "flexural_modulus_sd": 0.10499206319209722,
+      "flexural_strength_sd": 1.2393170162096012,
+      "strain_at_break_sd": 0.26003418578674947,
+      "formulation": "MW_10"
+    },
+    {
+      "material": "MW",
+      "percentage": 20,
+      "flexural_modulus": 4.108,
+      "flexural_strength": 67.828,
+      "strain_at_break": 2.495,
+      "flexural_modulus_sd": 0.2229997508718091,
+      "flexural_strength_sd": 1.608600495945331,
+      "strain_at_break_sd": 0.13810221657244406,
+      "formulation": "MW_20"
+    },
+    {
+      "material": "MW",
+      "percentage": 30,
+      "flexural_modulus": 3.6409999999999996,
+      "flexural_strength": 48.594,
+      "strain_at_break": 1.653,
+      "flexural_modulus_sd": 0.180643910005907,
+      "flexural_strength_sd": 1.5324867227991097,
+      "strain_at_break_sd": 0.19793657794578773,
+      "formulation": "MW_30"
+    },
+    {
+      "material": "NA",
+      "percentage": 0,
+      "flexural_modulus": 3.743,
+      "flexural_strength": 103.23499999999999,
+      "strain_at_break": 4.182,
+      "flexural_modulus_sd": 0.15319196381591876,
+      "flexural_strength_sd": 1.7761146734750308,
+      "strain_at_break_sd": 0.43560430566181413,
+      "formulation": "NA_0"
+    },
+    {
+      "material": "OW",
+      "percentage": 10,
+      "flexural_modulus": 2.351,
+      "flexural_strength": 41.001,
+      "strain_at_break": 3.2299999999999995,
+      "flexural_modulus_sd": 0.335607243995451,
+      "flexural_strength_sd": 0.3258646617505159,
+      "strain_at_break_sd": 0.1350719972623654,
+      "formulation": "OW_10"
+    },
+    {
+      "material": "OW",
+      "percentage": 20,
+      "flexural_modulus": 1.443,
+      "flexural_strength": 34.747,
+      "strain_at_break": 3.499,
+      "flexural_modulus_sd": 0.1135341358358798,
+      "flexural_strength_sd": 0.2318548396446932,
+      "strain_at_break_sd": 0.28799884259026687,
+      "formulation": "OW_20"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "R_A1",
+      "hide": "MW_10",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "A1",
+          "type": "inverse",
+          "target": [
+            3.157,
+            72.072,
+            3.1719999999999997
+          ],
+          "text": "[A1] Inverse design. A client needs printed parts with flexural modulus 3.16 GPa, flexural strength 72.07 MPa and strain at break 3.17 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    },
+    {
+      "request_id": "R_B1",
+      "hide": "MW_10",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "B1",
+          "type": "forward",
+          "material": "MW",
+          "percentage": 10.0,
+          "text": "[B1] Forward estimate. Estimate the flexural modulus, flexural strength and strain at break of printed bars of 90PLA/10MW (10 wt.% marble waste (MW))."
+        }
+      ]
+    },
+    {
+      "request_id": "R_A2",
+      "hide": "MW_20",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "A2",
+          "type": "inverse",
+          "target": [
+            4.108,
+            67.828,
+            2.495
+          ],
+          "text": "[A2] Inverse design. A client needs printed parts with flexural modulus 4.11 GPa, flexural strength 67.83 MPa and strain at break 2.50 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    },
+    {
+      "request_id": "R_B2",
+      "hide": "MW_20",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "B2",
+          "type": "forward",
+          "material": "MW",
+          "percentage": 20.0,
+          "text": "[B2] Forward estimate. Estimate the flexural modulus, flexural strength and strain at break of printed bars of 80PLA/20MW (20 wt.% marble waste (MW))."
+        }
+      ]
+    },
+    {
+      "request_id": "R_A3",
+      "hide": "MW_30",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "A3",
+          "type": "inverse",
+          "target": [
+            3.6409999999999996,
+            48.594,
+            1.653
+          ],
+          "text": "[A3] Inverse design. A client needs printed parts with flexural modulus 3.64 GPa, flexural strength 48.59 MPa and strain at break 1.65 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    },
+    {
+      "request_id": "R_B3",
+      "hide": "MW_30",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "B3",
+          "type": "forward",
+          "material": "MW",
+          "percentage": 30.0,
+          "text": "[B3] Forward estimate. Estimate the flexural modulus, flexural strength and strain at break of printed bars of 70PLA/30MW (30 wt.% marble waste (MW))."
+        }
+      ]
+    },
+    {
+      "request_id": "R_A4",
+      "hide": "OW_10",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "A4",
+          "type": "inverse",
+          "target": [
+            2.351,
+            41.001,
+            3.2299999999999995
+          ],
+          "text": "[A4] Inverse design. A client needs printed parts with flexural modulus 2.35 GPa, flexural strength 41.00 MPa and strain at break 3.23 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    },
+    {
+      "request_id": "R_B4",
+      "hide": "OW_10",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "B4",
+          "type": "forward",
+          "material": "OW",
+          "percentage": 10.0,
+          "text": "[B4] Forward estimate. Estimate the flexural modulus, flexural strength and strain at break of printed bars of 90PLA/10OW (10 wt.% olive wood waste (OW))."
+        }
+      ]
+    },
+    {
+      "request_id": "R_A5",
+      "hide": "OW_20",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "A5",
+          "type": "inverse",
+          "target": [
+            1.443,
+            34.747,
+            3.499
+          ],
+          "text": "[A5] Inverse design. A client needs printed parts with flexural modulus 1.44 GPa, flexural strength 34.75 MPa and strain at break 3.50 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    },
+    {
+      "request_id": "R_B5",
+      "hide": "OW_20",
+      "full_context": false,
+      "items": [
+        {
+          "item_id": "B5",
+          "type": "forward",
+          "material": "OW",
+          "percentage": 20.0,
+          "text": "[B5] Forward estimate. Estimate the flexural modulus, flexural strength and strain at break of printed bars of 80PLA/20OW (20 wt.% olive wood waste (OW))."
+        }
+      ]
+    },
+    {
+      "request_id": "R_CD",
+      "hide": null,
+      "full_context": true,
+      "items": [
+        {
+          "item_id": "C1",
+          "type": "inverse",
+          "target": [
+            3.6,
+            49.0,
+            1.7
+          ],
+          "text": "[C1] Inverse design. A client needs printed parts with flexural modulus 3.60 GPa, flexural strength 49.00 MPa and strain at break 1.70 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        },
+        {
+          "item_id": "C2",
+          "type": "inverse",
+          "target": [
+            3.5,
+            58.0,
+            2.1
+          ],
+          "text": "[C2] Inverse design. A client needs printed parts with flexural modulus 3.50 GPa, flexural strength 58.00 MPa and strain at break 2.10 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        },
+        {
+          "item_id": "C3",
+          "type": "inverse",
+          "target": [
+            1.9,
+            38.0,
+            3.4
+          ],
+          "text": "[C3] Inverse design. A client needs printed parts with flexural modulus 1.90 GPa, flexural strength 38.00 MPa and strain at break 3.40 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        },
+        {
+          "item_id": "D1",
+          "type": "inverse",
+          "target": [
+            4.5,
+            110.0,
+            6.0
+          ],
+          "text": "[D1] Inverse design. A client needs printed parts with flexural modulus 4.50 GPa, flexural strength 110.00 MPa and strain at break 6.00 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        },
+        {
+          "item_id": "D2",
+          "type": "inverse",
+          "target": [
+            1.0,
+            30.0,
+            3.6
+          ],
+          "text": "[D2] Inverse design. A client needs printed parts with flexural modulus 1.00 GPa, flexural strength 30.00 MPa and strain at break 3.60 %. Which formulation would you propose (filler family and filler content in wt.%)? If no processable formulation of this material system can meet the request, say so."
+        }
+      ]
+    }
+  ]
+}

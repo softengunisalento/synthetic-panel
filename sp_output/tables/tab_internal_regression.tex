@@ -1,0 +1,14 @@
+% Internal validation of the MW regressors
+% label: tab:internal
+\begin{tabular}{lrrrr}
+\toprule
+model & specimen\_wise\_RMSE & LOFO\_MAE & LOFO\_RMSE & LOFO\_R2\_pooled \\
+\midrule
+Ridge regression & 1.60 & 4.46 & 5.75 & 0.51 \\
+Polynomial Ridge (2nd order) & 1.74 & 5.26 & 5.94 & 0.47 \\
+Linear regression & 1.50 & 5.83 & 6.31 & 0.40 \\
+Gradient boosting & 1.65 & 8.21 & 9.13 & -0.25 \\
+Random forest & 1.71 & 8.97 & 10.14 & -0.54 \\
+Mean-prediction baseline & 8.43 & 10.00 & 12.25 & -1.25 \\
+\bottomrule
+\end{tabular}

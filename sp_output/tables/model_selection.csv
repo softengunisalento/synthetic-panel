@@ -1,0 +1,6 @@
+key,repo,stratum,gguf,ollama,downloads_30d,params_B,created,license
+intern-s1-mini,internlm/Intern-S1-mini,domain,mradermacher/Intern-S1-mini-i1-GGUF,hf.co/mradermacher/Intern-S1-mini-i1-GGUF:Q4_K_M,,,,
+qwen3-vl-8b-instruct,Qwen/Qwen3-VL-8B-Instruct,general,Qwen/Qwen3-VL-8B-Instruct-GGUF,hf.co/Qwen/Qwen3-VL-8B-Instruct-GGUF:Q4_K_M,19149628.0,8.8,2025-10-11,apache-2.0
+gemma-4-26b-a4b-it,google/gemma-4-26B-A4B-it,general,bartowski/google_gemma-4-26B-A4B-it-GGUF,hf.co/bartowski/google_gemma-4-26B-A4B-it-GGUF:Q4_K_M,11073424.0,25.8,2026-03-11,apache-2.0
+gpt-oss-20b,openai/gpt-oss-20b,general,unsloth/gpt-oss-20b-GGUF,hf.co/unsloth/gpt-oss-20b-GGUF:Q4_K_M,6660792.0,20.9,2025-08-04,apache-2.0
+glm-4.7-flash,zai-org/GLM-4.7-Flash,general,unsloth/GLM-4.7-Flash-GGUF,hf.co/unsloth/GLM-4.7-Flash-GGUF:Q4_K_M,1816463.0,31.2,2026-01-19,mit

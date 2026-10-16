@@ -1,0 +1,601 @@
+repo,organisation,pipeline,downloads_30d,created,license,params_B,context,gguf,eligible,excluded_by
+Qwen/Qwen3-0.6B,Qwen,text-generation,28114690,2025-04-27,apache-2.0,0.751632384,,,False,IC3 size
+Qwen/Qwen3-VL-8B-Instruct,Qwen,image-text-to-text,19149628,2025-10-11,apache-2.0,8.767123696,262144.0,Qwen/Qwen3-VL-8B-Instruct-GGUF,True,
+openai-community/gpt2,openai-community,text-generation,15333041,2022-03-02,mit,,,,False,IC2 original release; IC2 chat model; IC6 recent
+Qwen/Qwen3-8B,Qwen,text-generation,12343793,2025-04-27,apache-2.0,8.19073536,40960.0,Qwen/Qwen3-8B-GGUF,True,
+trl-internal-testing/tiny-Qwen2ForCausalLM-2.5,trl-internal-testing,text-generation,11861111,2024-11-25,,,,,False,IC1 license; IC6 recent
+unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF,unsloth,text-generation,11599299,2025-07-31,apache-2.0,,,,False,IC2 original release
+google/gemma-4-26B-A4B-it,google,image-text-to-text,11073424,2026-03-11,apache-2.0,25.805936206,262144.0,bartowski/google_gemma-4-26B-A4B-it-GGUF,True,
+Qwen/Qwen3.5-9B,Qwen,image-text-to-text,9781405,2026-02-27,apache-2.0,9.653104368,262144.0,unsloth/Qwen3.5-9B-GGUF,True,
+Qwen/Qwen2.5-7B-Instruct,Qwen,text-generation,9780128,2024-09-16,apache-2.0,,,,False,IC6 recent
+google/gemma-4-31B-it,google,image-text-to-text,9263106,2026-03-11,apache-2.0,31.273088876,262144.0,unsloth/gemma-4-31B-it-GGUF,True,
+Qwen/Qwen2.5-0.5B-Instruct,Qwen,text-generation,8656048,2024-09-16,apache-2.0,,,,False,IC6 recent
+Qwen/Qwen3.6-35B-A3B-FP8,Qwen,image-text-to-text,8076507,2026-04-15,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-1.5B-Instruct,Qwen,text-generation,7811677,2024-09-17,apache-2.0,,,,False,IC6 recent
+nvidia/Qwen3.6-35B-A3B-NVFP4,nvidia,text-generation,7386231,2026-05-27,apache-2.0,,,,False,IC2 original release
+meta-llama/Llama-3.2-1B-Instruct,meta-llama,text-generation,7385484,2024-09-18,llama3.2,,,,False,IC6 recent
+Qwen/Qwen3.5-4B,Qwen,image-text-to-text,7029433,2026-02-27,apache-2.0,4.659865088,,,False,IC3 size
+facebook/opt-125m,facebook,text-generation,6831827,2022-05-11,other,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen3-4B,Qwen,text-generation,6742650,2025-04-27,apache-2.0,4.022468096,,,False,IC3 size
+openai/gpt-oss-20b,openai,text-generation,6660792,2025-08-04,apache-2.0,20.914757184,131072.0,unsloth/gpt-oss-20b-GGUF,True,
+Qwen/Qwen3.8-27B,Qwen,image-text-to-text,6579319,2026-08-05,apache-2.0,27.781427952,262144.0,lmstudio-community/Qwen3.8-27B-GGUF,True,
+Qwen/Qwen2.5-VL-7B-Instruct,Qwen,image-text-to-text,6530663,2025-01-26,apache-2.0,,,,False,IC6 recent
+meta-llama/Llama-3.1-8B-Instruct,meta-llama,text-generation,6184751,2024-07-18,llama3.1,,,,False,IC6 recent
+Qwen/Qwen3.8-27B-FP8,Qwen,image-text-to-text,5697329,2026-08-13,apache-2.0,,,,False,IC2 original release
+farbodtavakkoli/OTel-2.0-LLM-31B-IT,farbodtavakkoli,text-generation,5100127,2026-07-23,apache-2.0,,,,False,IC2 organisation account
+ornith-ai/Ornith-1.5-9B-GGUF,ornith-ai,text-generation,5079635,2026-08-19,mit,,,,False,IC2 original release
+cdiamond/Qwen3.8-27B-iMatrix-NVFP4-MTP-GGUF,cdiamond,image-text-to-text,4947281,2026-08-17,apache-2.0,,,,False,IC2 original release; IC2 chat model
+Qwen/Qwen3.6-27B-FP8,Qwen,image-text-to-text,4786005,2026-04-21,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-2B,Qwen,image-text-to-text,4764842,2026-02-28,apache-2.0,2.274069824,,,False,IC3 size
+dphn/dolphin-2.9.1-yi-1.5-34b,dphn,text-generation,4763880,2024-05-18,apache-2.0,,,,False,IC2 original release; IC6 recent
+openai/gpt-oss-120b,openai,text-generation,4618548,2025-08-04,apache-2.0,116.829156672,,,False,IC3 size
+lmstudio-community/Qwen3.8-27B-MLX-4bit,lmstudio-community,image-text-to-text,4544339,2026-08-14,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-32B,Qwen,text-generation,4494102,2025-04-27,apache-2.0,32.762123264,,,False,IC3 size
+lmstudio-community/Qwen3.8-27B-MLX-8bit,lmstudio-community,image-text-to-text,4347743,2026-08-14,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.8-27B-MLX-6bit,lmstudio-community,image-text-to-text,4314774,2026-08-14,apache-2.0,,,,False,IC2 original release
+RadixArk/Kimi-K3-DSpark,RadixArk,text-generation,4311260,2026-07-27,,,,,False,IC1 license; IC2 chat model
+lmstudio-community/Qwen3.8-27B-MLX-5bit,lmstudio-community,image-text-to-text,4294132,2026-08-14,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-3B-Instruct,Qwen,text-generation,4292426,2024-09-17,other,,,,False,IC6 recent
+nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16,nvidia,text-generation,4222312,2026-03-07,other,3.973556832,,,False,IC3 size
+zai-org/GLM-5.3-Flash,zai-org,image-text-to-text,4111495,2026-08-25,mit,321.32303139,,,False,IC3 size
+Qwen/Qwen3-4B-Instruct-2507,Qwen,text-generation,3941081,2025-08-05,apache-2.0,4.022468096,,,False,IC3 size
+Qwen/Qwen-72B,Qwen,text-generation,3937563,2023-11-26,other,,,,False,IC2 chat model; IC6 recent
+ornith-ai/Ornith-1.5-35B-A3B-GGUF,ornith-ai,text-generation,3831923,2026-08-18,mit,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V4-Flash-0731,deepseek-ai,text-generation,3680619,2026-07-31,mit,,,,False,IC2 chat model
+Qwen/Qwen3-1.7B,Qwen,text-generation,3462257,2025-04-27,apache-2.0,2.031739904,,,False,IC3 size
+google/gemma-3-1b-it,google,text-generation,3361185,2025-03-10,gemma,,,,False,IC6 recent
+Qwen/Qwen3-VL-4B-Instruct,Qwen,image-text-to-text,3349652,2025-10-11,apache-2.0,4.437815808,,,False,IC3 size
+EleutherAI/pythia-160m,EleutherAI,text-generation,3332594,2023-02-08,apache-2.0,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen2.5-7B-Instruct-AWQ,Qwen,text-generation,3322622,2024-09-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+prism-ml/Ternary-Bonsai-2-27B-gguf,prism-ml,text-generation,3109078,2026-09-16,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.6-35B-A3B,Qwen,image-text-to-text,3086518,2026-04-15,apache-2.0,35.951822704,,,False,IC3 size
+microsoft/Florence-2-base,microsoft,image-text-to-text,3039350,2024-06-15,mit,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen3-VL-2B-Instruct,Qwen,image-text-to-text,2960646,2025-10-19,apache-2.0,2.127532032,,,False,IC3 size
+Qwen/Qwen3.6-27B,Qwen,image-text-to-text,2867611,2026-04-21,apache-2.0,27.781427952,262144.0,unsloth/Qwen3.6-27B-GGUF,True,
+deepseek-ai/DeepSeek-V3.2,deepseek-ai,text-generation,2816306,2025-12-01,mit,,,,False,IC2 chat model
+ornith-ai/Ornith-1.0-9B-GGUF,ornith-ai,text-generation,2737414,2026-06-25,mit,,,,False,IC2 original release
+Qwen/Qwen3-14B-AWQ,Qwen,text-generation,2618416,2025-05-01,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-Coder-7B-Instruct,Qwen,text-generation,2465839,2024-09-17,apache-2.0,,,,False,IC6 recent
+datalab-to/chandra-ocr-2,datalab-to,image-text-to-text,2398889,2026-03-16,openrail,5.295564288,,,False,IC3 size
+Qwen/Qwen3.5-0.8B,Qwen,image-text-to-text,2381479,2026-02-28,apache-2.0,0.873438784,,,False,IC3 size
+Qwen/Qwen2.5-VL-3B-Instruct,Qwen,image-text-to-text,2362369,2025-01-26,,,,,False,IC1 license; IC6 recent
+JonathanColetti/Qwen3.8-27B-Uncensored-GGUF,JonathanColetti,text-generation,2289628,2026-08-14,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-OCR,deepseek-ai,image-text-to-text,2246855,2025-10-17,mit,,,,False,IC2 chat model
+huihui-ai/Huihui-Qwen3.8-27B-abliterated-GGUF,huihui-ai,image-text-to-text,2231948,2026-08-16,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-14B,Qwen,text-generation,2169060,2025-04-27,apache-2.0,14.7683072,40960.0,Qwen/Qwen3-14B-GGUF,True,
+Qwen/Qwen3-VL-8B-Instruct-FP8,Qwen,image-text-to-text,2155064,2025-10-11,apache-2.0,,,,False,IC2 original release
+distilbert/distilgpt2,distilbert,text-generation,2096518,2022-03-02,apache-2.0,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen2.5-32B-Instruct,Qwen,text-generation,2047278,2024-09-17,apache-2.0,,,,False,IC6 recent
+HauhauCS/Qwen3.8-27B-Uncensored-HauhauCS-Aggressive-MTP-GGUF,HauhauCS,image-text-to-text,2046752,2026-08-17,apache-2.0,,,,False,IC2 original release
+baidu/Unlimited-OCR,baidu,image-text-to-text,2018253,2026-06-19,mit,,,,False,IC2 chat model
+Qwen/Qwen2.5-14B-Instruct-AWQ,Qwen,text-generation,2012808,2024-09-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+Qwen/Qwen2-VL-2B-Instruct,Qwen,image-text-to-text,2005585,2024-08-28,apache-2.0,,,,False,IC6 recent
+vikhyatk/moondream2,vikhyatk,image-text-to-text,1976874,2024-03-04,apache-2.0,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen2.5-14B-Instruct,Qwen,text-generation,1973871,2024-09-16,apache-2.0,,,,False,IC6 recent
+Qwen/Qwen3-8B-AWQ,Qwen,text-generation,1963316,2025-05-03,apache-2.0,,,,False,IC2 original release
+meta-llama/Llama-3.2-3B-Instruct,meta-llama,text-generation,1938255,2024-09-18,llama3.2,,,,False,IC6 recent
+antirez/deepseek-v4-gguf,antirez,text-generation,1884978,2026-04-26,mit,,,,False,IC2 original release
+Qwen/Qwen2.5-Coder-14B-Instruct,Qwen,text-generation,1841923,2024-11-06,apache-2.0,,,,False,IC6 recent
+HuggingFaceTB/SmolLM2-135M,HuggingFaceTB,text-generation,1832897,2024-10-31,apache-2.0,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen3.5-27B,Qwen,image-text-to-text,1832716,2026-02-24,apache-2.0,27.781427952,262144.0,unsloth/Qwen3.5-27B-GGUF,True,
+zai-org/GLM-4.7-Flash,zai-org,text-generation,1816463,2026-01-19,mit,31.221488576,202752.0,unsloth/GLM-4.7-Flash-GGUF,True,
+ornith-ai/Ornith-1.0-35B-GGUF,ornith-ai,text-generation,1793104,2026-06-25,mit,,,,False,IC2 original release
+mistralai/Mistral-7B-Instruct-v0.2,mistralai,text-generation,1784153,2023-12-11,apache-2.0,,,,False,IC6 recent
+RadixArk/Qwen3.8-27B-NVFP4,RadixArk,image-text-to-text,1762587,2026-08-14,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.8-Flash-Next-GGUF,unsloth,image-text-to-text,1759329,2026-08-26,other,,,,False,IC2 original release
+Qwen/Qwen2.5-VL-7B-Instruct-AWQ,Qwen,image-text-to-text,1723448,2025-02-15,apache-2.0,,,,False,IC2 original release; IC6 recent
+moonshotai/Kimi-K3,moonshotai,image-text-to-text,1718174,2026-06-13,other,2779.931837184,,,False,IC3 size
+HuggingFaceTB/SmolLM2-135M-Instruct,HuggingFaceTB,text-generation,1716218,2024-10-31,apache-2.0,,,,False,IC2 original release; IC6 recent
+nvidia/Gemma-4-31B-IT-NVFP4,nvidia,text-generation,1709111,2026-04-02,other,,,,False,IC2 original release
+DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF,DavidAU,image-text-to-text,1689654,2026-07-19,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-35B-A3B,Qwen,image-text-to-text,1679018,2026-02-24,apache-2.0,35.951822704,,,False,IC3 size
+llava-hf/llava-1.5-7b-hf,llava-hf,image-text-to-text,1656333,2023-12-05,llama2,,,,False,IC6 recent
+Qwen/Qwen3-30B-A3B,Qwen,text-generation,1649699,2025-04-27,apache-2.0,30.532122624,40960.0,Qwen/Qwen3-30B-A3B-GGUF,True,
+google/gemma-3-4b-it,google,image-text-to-text,1641935,2025-02-20,gemma,,,,False,IC6 recent
+Qwen/Qwen2-VL-7B-Instruct-AWQ,Qwen,image-text-to-text,1628741,2024-08-29,apache-2.0,,,,False,IC2 original release; IC6 recent
+0bserverx/Qwen3.8-27B-Heretic-Abliterated-Uncensored-GGUF,0bserverx,text-generation,1601809,2026-08-14,apache-2.0,,,,False,IC2 original release
+nvidia/Gemma-4-26B-A4B-NVFP4,nvidia,text-generation,1600571,2026-05-01,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-35B-A3B-FP8,Qwen,image-text-to-text,1588785,2026-02-25,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.0-35B,ornith-ai,text-generation,1587153,2026-06-21,mit,0.000664944,,,False,IC3 size
+Qwen/Qwen2.5-0.5B,Qwen,text-generation,1576951,2024-09-15,apache-2.0,,,,False,IC6 recent
+DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NEO-CODER-MAX-MTP-GGUF,DavidAU,image-text-to-text,1546398,2026-09-01,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-1.7B-Base,Qwen,text-generation,1533476,2025-04-28,apache-2.0,1.720574976,,,False,IC3 size
+Qwen/Qwen3-4B-Base,Qwen,text-generation,1512576,2025-04-28,apache-2.0,4.022468096,,,False,IC3 size
+ISTA-DASLab/Qwen3.8-27B-GSQ-RCO-GGUF,ISTA-DASLab,image-text-to-text,1510016,2026-08-28,apache-2.0,,,,False,IC2 original release
+HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive,HauhauCS,image-text-to-text,1505243,2026-04-02,gemma,,,,False,IC2 original release
+Qwen/Qwen2.5-Coder-32B-Instruct-AWQ,Qwen,text-generation,1425053,2024-11-09,apache-2.0,,,,False,IC2 original release; IC6 recent
+TinyLlama/TinyLlama-1.1B-Chat-v1.0,TinyLlama,text-generation,1419793,2023-12-30,apache-2.0,,,,False,IC6 recent
+unsloth/Qwen3.5-9B-GGUF,unsloth,image-text-to-text,1414211,2026-02-28,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V4-Flash,deepseek-ai,text-generation,1344431,2026-04-22,mit,,,,False,IC2 chat model
+ornith-ai/Ornith-1.5-397B-GGUF,ornith-ai,text-generation,1337598,2026-08-18,mit,,,,False,IC2 original release
+unsloth/Qwen3.6-27B-NVFP4,unsloth,image-text-to-text,1334726,2026-04-23,apache-2.0,,,,False,IC2 original release
+nvidia/Qwen3.5-122B-A10B-NVFP4,nvidia,text-generation,1312494,2026-05-13,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V3-0324,deepseek-ai,text-generation,1306639,2025-03-24,mit,,,,False,IC6 recent
+apple/OpenELM-1_1B-Instruct,apple,text-generation,1303452,2024-04-12,apple-amlr,,,,False,IC2 chat model; IC6 recent
+sahilchachra/Unlimited-OCR-AWQ,sahilchachra,image-text-to-text,1292647,2026-06-23,mit,,,,False,IC2 original release; IC2 chat model
+MiniMaxAI/MiniMax-M2.7,MiniMaxAI,text-generation,1271023,2026-04-09,other,228.689764864,,,False,IC3 size
+EleutherAI/pythia-70m-deduped,EleutherAI,text-generation,1263413,2023-02-13,apache-2.0,,,,False,IC2 chat model; IC6 recent
+unsloth/Qwen3.6-35B-A3B-GGUF,unsloth,image-text-to-text,1262498,2026-04-16,apache-2.0,,,,False,IC2 original release
+openai-community/gpt2-large,openai-community,text-generation,1248237,2022-03-02,mit,,,,False,IC2 original release; IC2 chat model; IC6 recent
+unsloth/Inkling-Small-GGUF,unsloth,image-text-to-text,1245190,2026-07-30,apache-2.0,,,,False,IC2 original release
+cyankiwi/gemma-4-26B-A4B-it-AWQ-4bit,cyankiwi,image-text-to-text,1236488,2026-04-03,apache-2.0,,,,False,IC2 original release
+Inferact/Qwen3.8-27B-NVFP4,Inferact,image-text-to-text,1233116,2026-08-13,apache-2.0,,,,False,IC2 original release
+peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF-MTP,peculiar-ragdoll,image-text-to-text,1232082,2026-08-24,mit,,,,False,IC2 original release; IC2 chat model
+trl-internal-testing/tiny-Qwen3ForCausalLM,trl-internal-testing,text-generation,1227858,2025-05-05,,,,,False,IC1 license
+gaunernst/gemma-3-27b-it-int4-awq,gaunernst,image-text-to-text,1218448,2025-03-21,gemma,,,,False,IC2 original release; IC6 recent
+unsloth/gemma-4-12b-it-GGUF,unsloth,image-text-to-text,1215947,2026-05-29,apache-2.0,,,,False,IC2 original release
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-BF16,nvidia,text-generation,1208944,2026-03-10,other,123.611012096,,,False,IC3 size
+HuggingFaceTB/SmolVLM2-500M-Video-Instruct,HuggingFaceTB,image-text-to-text,1202428,2025-02-11,apache-2.0,,,,False,IC2 original release; IC6 recent
+sshleifer/tiny-gpt2,sshleifer,text-generation,1194857,2022-03-02,,,,,False,IC1 license; IC2 chat model; IC6 recent
+datalab-to/surya-ocr-2,datalab-to,image-text-to-text,1184022,2026-05-14,openrail,0.686154304,,,False,IC3 size
+unsloth/Qwen3.6-35B-A3B-NVFP4,unsloth,image-text-to-text,1176425,2026-04-23,apache-2.0,,,,False,IC2 original release
+meta-llama/Meta-Llama-3-8B-Instruct,meta-llama,text-generation,1159376,2024-04-17,llama3,,,,False,IC6 recent
+zai-org/GLM-5.3,zai-org,text-generation,1158317,2026-08-25,other,753.32994048,,,False,IC3 size
+google/gemma-2-9b-it,google,text-generation,1141483,2024-06-24,gemma,,,,False,IC6 recent
+Qwen/Qwen2.5-32B-Instruct-AWQ,Qwen,text-generation,1131373,2024-09-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8,Qwen,text-generation,1131019,2025-07-31,apache-2.0,30.533947392,262144.0,,False,IC7 GGUF
+LiquidAI/LFM2.5-2.6B-GGUF,LiquidAI,text-generation,1126031,2026-08-01,other,,,,False,IC2 original release
+Qwen/Qwen2.5-Coder-32B-Instruct,Qwen,text-generation,1123038,2024-11-06,apache-2.0,,,,False,IC6 recent
+farbodtavakkoli/OTel-LLM-E4B-IT,farbodtavakkoli,text-generation,1113563,2026-06-17,apache-2.0,,,,False,IC2 original release
+google/medgemma-4b-it,google,image-text-to-text,1108476,2025-05-19,other,4.300079472,,,False,IC3 size
+prism-ml/Bonsai-27B-mlx-1bit,prism-ml,text-generation,1108049,2026-07-04,apache-2.0,,,,False,IC2 original release
+peft-internal-testing/tiny-random-OPTForCausalLM,peft-internal-testing,text-generation,1107683,2025-11-13,,,,,False,IC1 license; IC2 chat model
+prism-ml/Ternary-Bonsai-27B-mlx-2bit,prism-ml,text-generation,1098844,2026-07-04,apache-2.0,,,,False,IC2 original release
+bigscience/bloomz-560m,bigscience,text-generation,1098642,2022-10-08,bigscience-bloom-rail-1.0,,,,False,IC2 chat model; IC6 recent
+ggml-org/Qwen3.8-27B-GGUF,ggml-org,image-text-to-text,1088264,2026-08-14,apache-2.0,,,,False,IC2 original release
+datalab-to/surya-ocr-2-gguf,datalab-to,image-text-to-text,1085795,2026-05-14,openrail,,,,False,IC2 original release
+Qwen/Qwen3-Coder-Next-FP8,Qwen,text-generation,1081052,2026-02-01,apache-2.0,79.6792128,,,False,IC3 size
+unsloth/Qwen3.6-35B-A3B-MTP-GGUF,unsloth,image-text-to-text,1076791,2026-05-11,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.6-27B-MTP-GGUF,unsloth,image-text-to-text,1060699,2026-05-11,apache-2.0,,,,False,IC2 original release
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4,nvidia,text-generation,1057551,2025-12-20,other,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V3,deepseek-ai,text-generation,1056067,2024-12-25,,,,,False,IC1 license; IC6 recent
+mlx-community/Llama-3.1-8B-Instruct-4bit,mlx-community,text-generation,1049189,2025-02-15,llama3.1,,,,False,IC2 original release; IC6 recent
+QuantTrio/Qwen3-VL-30B-A3B-Instruct-AWQ,QuantTrio,text-generation,1046971,2025-10-04,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.5-35B-A3B-NVFP4,ornith-ai,text-generation,1025162,2026-08-18,mit,19.528501104,262144.0,,False,IC7 GGUF
+deepseek-ai/DeepSeek-V4-Flash-DSpark,deepseek-ai,text-generation,1016003,2026-06-27,mit,,,,False,IC2 chat model
+cyankiwi/Qwen3.8-27B-AWQ-INT4,cyankiwi,image-text-to-text,1005582,2026-08-15,apache-2.0,,,,False,IC2 original release
+CMSManhattan/JiRackUltra_14b,CMSManhattan,text-generation,1003329,2026-08-03,mit,,,,False,IC2 original release
+dots-studio/dots.ocr,dots-studio,image-text-to-text,994885,2025-07-30,mit,3.039179264,,,False,IC3 size
+RedHatAI/Qwen3.6-35B-A3B-NVFP4,RedHatAI,image-text-to-text,986154,2026-04-17,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.0-9B,ornith-ai,text-generation,982497,2026-06-21,mit,0.00146968,,,False,IC3 size
+unsloth/Qwen3.6-27B-GGUF,unsloth,image-text-to-text,980785,2026-04-22,apache-2.0,,,,False,IC2 original release
+OBLITERATUS/Qwen3.8-27B-OBLITERATED,OBLITERATUS,text-generation,966253,2026-08-19,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-4B-Instruct-2507-FP8,Qwen,text-generation,961364,2025-08-06,apache-2.0,,,,False,IC2 original release
+bartowski/endless-frontier_BigBang-v1-GGUF,bartowski,image-text-to-text,958618,2026-08-07,apache-2.0,,,,False,IC2 original release
+cyankiwi/Qwen3.6-27B-AWQ-INT4,cyankiwi,image-text-to-text,955779,2026-04-22,apache-2.0,,,,False,IC2 original release
+peculiar-ragdoll/Dirk-Qwen3.8-27B-GGUF,peculiar-ragdoll,image-text-to-text,951203,2026-08-14,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-7B,Qwen,text-generation,947264,2024-09-15,apache-2.0,,,,False,IC6 recent
+deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct,deepseek-ai,text-generation,946708,2024-06-14,other,,,,False,IC6 recent
+Qwen/Qwen2.5-Coder-7B-Instruct-AWQ,Qwen,text-generation,937471,2024-09-20,apache-2.0,,,,False,IC2 original release; IC6 recent
+Qwen/Qwen2.5-VL-32B-Instruct,Qwen,image-text-to-text,932350,2025-03-21,apache-2.0,,,,False,IC6 recent
+cyankiwi/Qwen3-Coder-30B-A3B-Instruct-AWQ-4bit,cyankiwi,text-generation,928533,2025-08-01,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-4B-GGUF,unsloth,image-text-to-text,922340,2026-03-02,apache-2.0,,,,False,IC2 original release
+meta-llama/Llama-3.3-70B-Instruct,meta-llama,text-generation,916904,2024-11-26,llama3.3,,,,False,IC6 recent
+zai-org/GLM-5.2,zai-org,text-generation,908535,2026-06-16,mit,753.32994048,,,False,IC3 size
+RedHatAI/gemma-4-26B-A4B-it-FP8-dynamic,RedHatAI,image-text-to-text,903324,2026-04-06,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V4-Flash-Vision-Exp,deepseek-ai,image-text-to-text,902875,2026-08-31,mit,,,,False,IC2 chat model
+nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4,nvidia,text-generation,892636,2026-08-04,other,17.820210764,1048576.0,,False,IC7 GGUF
+nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4,nvidia,text-generation,880314,2026-03-10,other,67.228556288,,,False,IC3 size
+ornith-ai/Ornith-1.5-9B-NVFP4,ornith-ai,text-generation,877907,2026-08-26,mit,6.728625904,,,False,IC3 size
+unsloth/GLM-5.3-Flash-GGUF,unsloth,text-generation,870903,2026-08-26,mit,,,,False,IC2 original release
+farbodtavakkoli/OTel-LLM-27B-IT,farbodtavakkoli,text-generation,866935,2026-02-11,apache-2.0,,,,False,IC2 original release
+QuantTrio/Qwen3.5-9B-AWQ,QuantTrio,image-text-to-text,857475,2026-03-03,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-122B-A10B-FP8,Qwen,image-text-to-text,856271,2026-02-25,apache-2.0,,,,False,IC2 original release
+ibm-research/PowerMoE-3b,ibm-research,text-generation,851280,2024-08-14,apache-2.0,,,,False,IC2 chat model; IC6 recent
+deepseek-ai/DeepSeek-OCR-2,deepseek-ai,image-text-to-text,849074,2026-01-27,apache-2.0,,,,False,IC2 chat model
+Qwen/Qwen3.8-Flash-Next,Qwen,image-text-to-text,846820,2026-08-24,other,179.999981459,,,False,IC3 size
+Qwen/Qwen2.5-Coder-14B-Instruct-AWQ,Qwen,text-generation,845706,2024-11-09,apache-2.0,,,,False,IC2 original release; IC6 recent
+Bahushruth/Qwen3.6-35B-A3B-abliterated-v4,Bahushruth,text-generation,844527,2026-06-11,apache-2.0,,,,False,IC2 original release
+meta-llama/Llama-2-7b-hf,meta-llama,text-generation,841026,2023-07-13,llama2,,,,False,IC2 chat model; IC6 recent
+allenai/OLMo-2-0425-1B,allenai,text-generation,832539,2025-04-17,apache-2.0,,,,False,IC2 chat model
+gittensor-model-hub/Qwen3.8-27B-NVFP4-RTX5090,gittensor-model-hub,image-text-to-text,831079,2026-08-14,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-random-LlamaForCausalLM,trl-internal-testing,text-generation,830099,2023-03-29,,,,,False,IC1 license; IC2 chat model; IC6 recent
+Qwen/Qwen3-32B-AWQ,Qwen,text-generation,827352,2025-05-01,apache-2.0,,,,False,IC2 original release
+meta-llama/Llama-3.2-1B,meta-llama,text-generation,819200,2024-09-18,llama3.2,,,,False,IC2 chat model; IC6 recent
+HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive,HauhauCS,image-text-to-text,808797,2026-04-17,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-R1,deepseek-ai,text-generation,808351,2025-01-20,mit,,,,False,IC6 recent
+Qwen/Qwen2.5-1.5B,Qwen,text-generation,806573,2024-09-15,apache-2.0,,,,False,IC6 recent
+legraphista/glm-4-9b-chat-IMat-GGUF,legraphista,text-generation,798339,2024-06-20,other,,,,False,IC2 original release; IC6 recent
+deepseek-ai/DeepSeek-R1-0528-Qwen3-8B,deepseek-ai,text-generation,797885,2025-05-29,mit,8.19073536,131072.0,MaziyarPanahi/DeepSeek-R1-0528-Qwen3-8B-GGUF,True,
+Qwen/Qwen3-30B-A3B-Instruct-2507,Qwen,text-generation,789982,2025-07-28,apache-2.0,30.532122624,262144.0,unsloth/Qwen3-30B-A3B-Instruct-2507-GGUF,True,
+Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8,Qwen,text-generation,786498,2025-07-22,apache-2.0,480.184064,,,False,IC3 size
+LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct-AWQ,LGAI-EXAONE,text-generation,779510,2024-12-01,other,,,,False,IC2 original release; IC6 recent
+nvidia/Qwen3-14B-NVFP4,nvidia,text-generation,771153,2025-09-09,apache-2.0,,,,False,IC2 original release
+empero-ai/Qwen3.8-4B-Distill-GGUF,empero-ai,text-generation,752838,2026-08-15,apache-2.0,,,,False,IC2 original release
+microsoft/Phi-3.5-vision-instruct,microsoft,image-text-to-text,752494,2024-08-16,mit,,,,False,IC6 recent
+FINAL-Bench/POCKET-35B-GGUF,FINAL-Bench,text-generation,748327,2026-07-22,apache-2.0,,,,False,IC2 original release
+QuantTrio/Qwen3.6-35B-A3B-AWQ,QuantTrio,image-text-to-text,748257,2026-04-17,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2-VL-7B-Instruct,Qwen,image-text-to-text,747856,2024-08-28,apache-2.0,,,,False,IC6 recent
+EleutherAI/pythia-6.9b,EleutherAI,text-generation,740850,2023-02-14,apache-2.0,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen3.5-397B-A17B-FP8,Qwen,image-text-to-text,731877,2026-02-18,apache-2.0,,,,False,IC2 original release
+Infomaniak-AI/vllm-translategemma-4b-it,Infomaniak-AI,image-text-to-text,727486,2026-01-26,gemma,4.971331952,,,False,IC3 size
+nvidia/Cosmos-Reason2-2B,nvidia,image-text-to-text,727146,2025-12-12,other,,,,False,IC2 original release
+Qwen/Qwen3-0.6B-Base,Qwen,text-generation,725649,2025-04-28,apache-2.0,0.59604992,,,False,IC3 size
+empero-ai/Qwen3.8-2B-Distill-GGUF,empero-ai,text-generation,725302,2026-08-15,apache-2.0,,,,False,IC2 original release
+OpenGVLab/InternVL2-1B,OpenGVLab,image-text-to-text,717905,2024-07-08,mit,,,,False,IC2 original release; IC6 recent
+tencent/HunyuanOCR,tencent,image-text-to-text,717348,2025-11-18,other,1.119925744,,,False,IC3 size
+yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF,yuxinlu1,text-generation,714459,2026-06-19,apache-2.0,,,,False,IC2 original release
+Salesforce/blip2-opt-2.7b,Salesforce,image-text-to-text,712076,2023-02-06,mit,,,,False,IC2 chat model; IC6 recent
+OpenGVLab/InternVL2-2B,OpenGVLab,image-text-to-text,711985,2024-06-27,mit,,,,False,IC2 original release; IC6 recent
+ISTA-DASLab/gemma-3-27b-it-GPTQ-4b-128g,ISTA-DASLab,image-text-to-text,710564,2025-03-14,gemma,,,,False,IC2 original release; IC6 recent
+meta-models/Muse-Glimmer-30B-GGUF,meta-models,image-text-to-text,709143,2026-08-09,apache-2.0,,,,False,IC2 original release
+bartowski/XYZAILab_XYZ-Aquila-mini-GGUF,bartowski,image-text-to-text,706885,2026-07-28,apache-2.0,,,,False,IC2 original release
+nvidia/GLM-5.2-NVFP4,nvidia,text-generation,704196,2026-06-22,mit,,,,False,IC2 original release
+HauhauCS/Gemma4-12B-QAT-Uncensored-HauhauCS-Balanced,HauhauCS,image-text-to-text,702134,2026-06-22,gemma,,,,False,IC2 original release
+deepseek-ai/deepseek-coder-7b-instruct-v1.5,deepseek-ai,text-generation,692802,2024-01-25,other,,,,False,IC6 recent
+empero-ai/Qwen3.8-9B-Distill-GGUF,empero-ai,text-generation,685303,2026-08-15,apache-2.0,,,,False,IC2 original release
+DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF,DavidAU,image-text-to-text,683514,2026-07-17,apache-2.0,,,,False,IC2 original release
+nvidia/Qwen2.5-VL-7B-Instruct-NVFP4,nvidia,text-generation,680228,2025-09-10,other,,,,False,IC2 original release
+Qwen/Qwen3-8B-FP8,Qwen,text-generation,679490,2025-04-28,apache-2.0,,,,False,IC2 original release
+boboliu/bge-reranker-v2.5-gemma2-lightweight-gptq,boboliu,text-generation,676132,2024-09-13,,,,,False,IC1 license; IC2 original release; IC2 chat model; IC6 recent
+google/gemma-4-31B,google,image-text-to-text,668535,2026-03-12,apache-2.0,,,,False,IC2 chat model
+Qwen/Qwen2.5-Coder-7B,Qwen,text-generation,666396,2024-09-16,apache-2.0,,,,False,IC6 recent
+openbmb/MiniCPM5-2B,openbmb,text-generation,666066,2026-09-06,apache-2.0,2.51675648,,,False,IC3 size
+z-lab/Qwen3.8-27B-DFlash2-GGUF,z-lab,text-generation,663141,2026-08-18,apache-2.0,,,,False,IC2 original release
+Orion-zhen/Qwen2.5-Coder-7B-Instruct-AWQ,Orion-zhen,text-generation,660573,2024-09-20,apache-2.0,,,,False,IC2 original release; IC6 recent
+cyankiwi/Qwen3-VL-8B-Instruct-AWQ-4bit,cyankiwi,image-text-to-text,657471,2025-10-14,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2-0.5B,Qwen,text-generation,655574,2024-05-31,apache-2.0,,,,False,IC6 recent
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16,nvidia,text-generation,648470,2025-12-04,other,31.577937344,262144.0,mradermacher/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-i1-GGUF,True,
+CMSManhattan/JiRackUltra_1b,CMSManhattan,text-generation,647153,2026-08-02,mit,,,,False,IC2 original release
+prism-ml/Ternary-Bonsai-27B-gguf,prism-ml,text-generation,643198,2026-07-04,apache-2.0,,,,False,IC2 original release
+zai-org/GLM-5.2-FP8,zai-org,text-generation,640931,2026-06-16,mit,753.32994048,,,False,IC3 size
+Qwen/Qwen2-1.5B-Instruct,Qwen,text-generation,640861,2024-06-03,apache-2.0,,,,False,IC6 recent
+google/gemma-2-2b-it,google,text-generation,636866,2024-07-16,gemma,,,,False,IC6 recent
+llava-hf/llava-onevision-qwen2-0.5b-ov-hf,llava-hf,image-text-to-text,630569,2024-08-13,apache-2.0,,,,False,IC2 original release; IC6 recent
+trl-internal-testing/tiny-GptOssForCausalLM,trl-internal-testing,text-generation,624840,2025-08-05,,,,,False,IC1 license
+HuggingFaceTB/SmolLM3-3B-Base,HuggingFaceTB,text-generation,623034,2025-06-19,apache-2.0,,,,False,IC2 original release; IC2 chat model
+nm-testing/SmolLM-1.7B-Instruct-quantized.w4a16,nm-testing,text-generation,622235,2024-08-23,apache-2.0,,,,False,IC6 recent
+unsloth/gemma-4-26B-A4B-it-qat-GGUF,unsloth,image-text-to-text,621546,2026-06-05,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V4.1-Flash,deepseek-ai,image-text-to-text,621396,2026-09-10,mit,,,,False,IC2 chat model
+lmstudio-community/Qwen3.5-9B-MLX-4bit,lmstudio-community,image-text-to-text,617551,2026-06-02,apache-2.0,,,,False,IC2 original release
+google/diffusiongemma-26B-A4B-it,google,image-text-to-text,617343,2026-06-09,apache-2.0,25.823778864,262144.0,unsloth/diffusiongemma-26B-A4B-it-GGUF,True,
+microsoft/phi-4,microsoft,text-generation,616267,2024-12-11,mit,,,,False,IC6 recent
+HuggingFaceTB/SmolLM3-3B,HuggingFaceTB,text-generation,614973,2025-07-08,apache-2.0,3.075098624,,,False,IC3 size
+Qwen/Qwen2.5-Coder-3B-Instruct,Qwen,text-generation,614283,2024-11-06,other,,,,False,IC6 recent
+Qwen/Qwen2.5-VL-32B-Instruct-AWQ,Qwen,image-text-to-text,612374,2025-03-26,apache-2.0,,,,False,IC2 original release; IC6 recent
+cyankiwi/MiniCPM-SALA-AWQ-8bit,cyankiwi,text-generation,610484,2026-02-15,apache-2.0,,,,False,IC2 original release
+stepfun-ai/GOT-OCR2_0,stepfun-ai,image-text-to-text,607987,2024-09-12,apache-2.0,,,,False,IC2 chat model; IC6 recent
+unsloth/GLM-5.3-GGUF,unsloth,text-generation,605645,2026-08-28,other,,,,False,IC2 original release
+llamafactory/tiny-random-Llama-3,llamafactory,text-generation,604055,2024-06-07,apache-2.0,,,,False,IC6 recent
+ByteDance-Seed/UI-TARS-1.5-7B,ByteDance-Seed,image-text-to-text,599407,2025-04-16,apache-2.0,8.292166656,128000.0,mradermacher/UI-TARS-1.5-7B-GGUF,True,
+trl-internal-testing/tiny-Qwen2_5_VLForConditionalGeneration,trl-internal-testing,image-text-to-text,599222,2025-07-20,,,,,False,IC1 license
+unsloth/gemma-4-E4B-it-GGUF,unsloth,image-text-to-text,594247,2026-04-01,apache-2.0,,,,False,IC2 original release
+LiquidAI/LFM2.5-8B-A1B-GGUF,LiquidAI,text-generation,592249,2026-05-24,other,,,,False,IC2 original release
+google/gemma-3-12b-it,google,image-text-to-text,588625,2025-03-01,gemma,,,,False,IC6 recent
+unsloth/inkling-GGUF,unsloth,image-text-to-text,588029,2026-07-14,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.5-9B-MLX-8bit,lmstudio-community,image-text-to-text,575401,2026-06-02,apache-2.0,,,,False,IC2 original release
+microsoft/phi-2,microsoft,text-generation,574667,2023-12-13,mit,,,,False,IC2 chat model; IC6 recent
+EleutherAI/gpt-neox-20b,EleutherAI,text-generation,572004,2022-04-07,apache-2.0,,,,False,IC2 chat model; IC6 recent
+meta-llama/Llama-3.1-8B,meta-llama,text-generation,571701,2024-07-14,llama3.1,,,,False,IC2 chat model; IC6 recent
+esatapedico/Qwen3.8-27B-NVFP4-MTP-GGUF,esatapedico,text-generation,568643,2026-08-14,apache-2.0,,,,False,IC2 original release; IC2 chat model
+LiquidAI/LFM2.5-230M-GGUF,LiquidAI,text-generation,568181,2026-06-11,other,,,,False,IC2 original release
+empero-ai/Qwythos-9B-v2-GGUF,empero-ai,image-text-to-text,565515,2026-07-09,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen1.5-MoE-A2.7B,Qwen,text-generation,559205,2024-02-29,other,,,,False,IC6 recent
+shawnw3i/Huihui-Qwen3.6-27B-abliterated-AWQ-MTP,shawnw3i,image-text-to-text,555686,2026-04-26,apache-2.0,,,,False,IC2 original release
+empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF,empero-ai,image-text-to-text,553391,2026-06-19,apache-2.0,,,,False,IC2 original release
+cyankiwi/Qwen3.5-4B-AWQ-4bit,cyankiwi,image-text-to-text,552748,2026-03-02,apache-2.0,,,,False,IC2 original release
+unsloth/gemma-4-26B-A4B-it-GGUF,unsloth,image-text-to-text,552230,2026-04-01,apache-2.0,,,,False,IC2 original release
+ibm-granite/granite-4.1-30b,ibm-granite,text-generation,549712,2026-04-06,apache-2.0,28.865728512,131072.0,ibm-granite/granite-4.1-30b-GGUF,True,
+unsloth/gemma-4-31B-it-qat-GGUF,unsloth,image-text-to-text,544598,2026-06-05,apache-2.0,,,,False,IC2 original release
+rinna/japanese-gpt-neox-small,rinna,text-generation,542187,2022-08-31,mit,,,,False,IC2 chat model; IC6 recent
+casperhansen/llama-3.3-70b-instruct-awq,casperhansen,text-generation,542141,2024-12-06,llama3.3,,,,False,IC2 original release; IC6 recent
+Qwen/Qwen2.5-Coder-1.5B-Instruct,Qwen,text-generation,541756,2024-09-18,apache-2.0,,,,False,IC6 recent
+ornith-ai/Ornith-1.5-397B,ornith-ai,text-generation,540659,2026-08-18,mit,403.397928944,,,False,IC3 size
+shibing624/macbert4csc-base-chinese,shibing624,text-generation,537957,2022-03-02,apache-2.0,,,,False,IC2 original release; IC2 chat model; IC6 recent
+Qwen/Qwen3.8-Flash-Next-FP8,Qwen,image-text-to-text,536396,2026-08-24,other,,,,False,IC2 original release
+openbmb/MiniCPM5-1B,openbmb,text-generation,536377,2026-05-21,apache-2.0,1.080632832,,,False,IC3 size
+hmellor/tiny-random-LlamaForCausalLM,hmellor,text-generation,536174,2025-04-29,,,,,False,IC1 license
+EleutherAI/gpt-neo-125m,EleutherAI,text-generation,534986,2022-03-02,mit,,,,False,IC2 chat model; IC6 recent
+Qwen/Qwen3-Coder-30B-A3B-Instruct,Qwen,text-generation,532536,2025-07-31,apache-2.0,30.532122624,262144.0,unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF,True,
+AnkitAI/Parable-Qwen3-8B-Claude-Fable-5-GGUF,AnkitAI,text-generation,529298,2026-07-14,apache-2.0,,,,False,IC2 original release
+google/gemma-4-26B-A4B-it-qat-q4_0-gguf,google,image-text-to-text,525044,2026-05-01,apache-2.0,,,,False,IC2 original release
+bigscience/bloom-560m,bigscience,text-generation,524342,2022-05-19,bigscience-bloom-rail-1.0,,,,False,IC2 original release; IC2 chat model; IC6 recent
+raxcore-dev/Rax-4.5,raxcore-dev,image-text-to-text,524037,2025-11-27,apache-2.0,2.274069824,,,False,IC3 size
+Qwen/Qwen2.5-72B-Instruct-AWQ,Qwen,text-generation,522614,2024-09-17,other,,,,False,IC2 original release; IC6 recent
+unsloth/gpt-oss-20b-GGUF,unsloth,text-generation,520471,2025-08-05,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-Coder-Next,Qwen,text-generation,515885,2026-01-30,apache-2.0,79.674391296,,,False,IC3 size
+RedHatAI/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-FP8,RedHatAI,text-generation,514027,2026-08-13,,,,,False,IC1 license; IC2 original release
+llava-hf/llava-v1.6-mistral-7b-hf,llava-hf,image-text-to-text,513888,2024-02-20,apache-2.0,,,,False,IC6 recent
+DavidAU/Qwen3.8-27B-Cold-Fusion-GAIN-V1.1-NM-DAU-NEO-MAX-MTP-GGUF,DavidAU,image-text-to-text,512667,2026-08-17,apache-2.0,,,,False,IC2 original release
+HuggingFaceTB/SmolLM2-360M,HuggingFaceTB,text-generation,509697,2024-10-31,apache-2.0,,,,False,IC2 chat model; IC6 recent
+meta-llama/Llama-2-7b-chat-hf,meta-llama,text-generation,502148,2023-07-13,llama2,,,,False,IC6 recent
+LeaderboardModel1/zeta-2.1-autoround-W4A16,LeaderboardModel1,text-generation,500742,2026-05-21,,,,,False,IC1 license; IC2 original release; IC2 chat model
+philbert440/Qwen3.8-27B-W4A16-AWQ,philbert440,image-text-to-text,500069,2026-08-14,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-V4-Pro,deepseek-ai,text-generation,499898,2026-04-22,mit,,,,False,IC2 chat model
+empero-ai/Qwen3.8-27B-Ridge-GGUF,empero-ai,image-text-to-text,498087,2026-08-15,apache-2.0,,,,False,IC2 original release
+peculiar-ragdoll/Tiel-Coder-35B-A3B-GGUF,peculiar-ragdoll,image-text-to-text,497423,2026-08-19,mit,,,,False,IC2 original release
+Qwen/Qwen2.5-32B-Instruct-GPTQ-Int4,Qwen,text-generation,497027,2024-09-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+AtomicChat/Qwen3.8-Flash-Next-GGUF,AtomicChat,text-generation,496211,2026-08-26,other,,,,False,IC2 original release
+Qwen/Qwen3.5-4B-Base,Qwen,image-text-to-text,495070,2026-02-27,apache-2.0,4.659865088,,,False,IC3 size
+Qwen/Qwen3-8B-GGUF,Qwen,text-generation,494618,2025-05-03,apache-2.0,,,,False,IC2 original release
+RedHatAI/Qwen3.8-27B-INT4,RedHatAI,image-text-to-text,494056,2026-08-17,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-Qwen3MoeForCausalLM,trl-internal-testing,text-generation,493869,2025-07-09,,,,,False,IC1 license
+LilaRest/gemma-4-31B-it-NVFP4-turbo,LilaRest,text-generation,488856,2026-04-07,apache-2.0,,,,False,IC2 original release
+bartowski/Qwen3.8-27B-GGUF,bartowski,image-text-to-text,488319,2026-08-14,,,,,False,IC1 license; IC2 original release
+EleutherAI/pythia-14m,EleutherAI,text-generation,487641,2026-02-24,apache-2.0,,,,False,IC2 chat model
+microsoft/Florence-2-large,microsoft,image-text-to-text,487172,2024-06-15,mit,,,,False,IC2 chat model; IC6 recent
+unsloth/Ornith-1.0-9B-GGUF,unsloth,text-generation,482548,2026-07-17,mit,,,,False,IC2 original release
+huihui-ai/Huihui-DeepSeek-V4-Flash-0731-abliterated-GGUF,huihui-ai,text-generation,477767,2026-08-02,mit,,,,False,IC2 original release
+Qwen/Qwen3-8B-Base,Qwen,text-generation,477164,2025-04-28,apache-2.0,8.19073536,32768.0,mradermacher/Qwen3-8B-Base-GGUF,True,
+GSAI-ML/LLaDA-8B-Instruct,GSAI-ML,text-generation,473812,2025-02-19,mit,,,,False,IC6 recent
+migtissera/Tess-4-27B-GGUF,migtissera,image-text-to-text,473445,2026-07-08,apache-2.0,,,,False,IC2 original release
+swiss-ai/Apertus-8B-Instruct-2509,swiss-ai,text-generation,472386,2025-08-13,apache-2.0,8.053338176,65536.0,unsloth/Apertus-8B-Instruct-2509-GGUF,True,
+hmellor/tiny-random-Gemma2ForCausalLM,hmellor,text-generation,472307,2025-04-29,,,,,False,IC1 license; IC2 chat model
+yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF,yuxinlu1,text-generation,471172,2026-06-10,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,deepseek-ai,text-generation,469508,2025-01-20,mit,,,,False,IC6 recent
+openbmb/MiniCPM5-2B-DSpark,openbmb,text-generation,468096,2026-09-06,apache-2.0,,,,False,IC2 chat model
+ornith-ai/Ornith-1.5-9B,ornith-ai,text-generation,467877,2026-08-18,mit,9.653104368,262144.0,bartowski/Ornith-1.5-9B-GGUF,True,
+ibm-granite/granite-4.1-3b,ibm-granite,text-generation,464493,2026-04-06,apache-2.0,3.40283648,,,False,IC3 size
+Qwen/Qwen2.5-Coder-7B-Instruct-GPTQ-Int4,Qwen,text-generation,464205,2024-09-20,apache-2.0,,,,False,IC2 original release; IC6 recent
+unsloth/Qwen3-4B-GGUF,unsloth,text-generation,462007,2025-04-28,apache-2.0,,,,False,IC2 original release
+bartowski/DeepSeek-Coder-V2-Lite-Instruct-GGUF,bartowski,text-generation,461988,2024-06-17,other,,,,False,IC2 original release; IC6 recent
+Qwen/Qwen2.5-3B-Instruct-AWQ,Qwen,text-generation,461457,2024-09-17,other,,,,False,IC2 original release; IC6 recent
+deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B,deepseek-ai,text-generation,461164,2025-01-20,mit,,,,False,IC6 recent
+meta-llama/Llama-3.1-405B-FP8,meta-llama,text-generation,459896,2024-07-20,llama3.1,,,,False,IC2 chat model; IC6 recent
+bartowski/thomsonreuters_Thomson-1.0-Small-GGUF,bartowski,image-text-to-text,453923,2026-08-26,other,,,,False,IC2 original release
+unsloth/gemma-4-E2B-it-GGUF,unsloth,image-text-to-text,452272,2026-04-01,apache-2.0,,,,False,IC2 original release
+thinkingmachines/Inkling-Small,thinkingmachines,image-text-to-text,450037,2026-07-27,apache-2.0,265.95643909,,,False,IC3 size
+ornith-ai/Ornith-1.5-35B-A3B-FP8,ornith-ai,text-generation,447308,2026-08-18,mit,35.951822704,,,False,IC3 size
+HuggingFaceTB/SmolVLM-256M-Instruct,HuggingFaceTB,image-text-to-text,444573,2025-01-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+google/gemma-4-31B-it-qat-q4_0-gguf,google,image-text-to-text,441838,2026-05-01,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-30B-A3B-Instruct-2507-FP8,Qwen,text-generation,439647,2025-07-28,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-VL-30B-A3B-Instruct,Qwen,image-text-to-text,439134,2025-09-30,apache-2.0,31.070754032,262144.0,Qwen/Qwen3-VL-30B-A3B-Instruct-GGUF,True,
+mlx-community/gemma-3-12b-it-4bit,mlx-community,image-text-to-text,438789,2025-03-12,gemma,,,,False,IC2 original release; IC6 recent
+prism-ml/Bonsai-27B-gguf,prism-ml,text-generation,438748,2026-07-04,apache-2.0,,,,False,IC2 original release
+k-chirkunov/gemma4-e4b-claims-comparison,k-chirkunov,text-generation,436369,2026-07-14,gemma,,,,False,IC2 organisation account
+dots-studio/dots.mocr,dots-studio,image-text-to-text,436233,2026-03-19,mit,3.039179264,,,False,IC3 size
+unsloth/Kimi-K3-GGUF,unsloth,image-text-to-text,435774,2026-07-27,other,,,,False,IC2 original release
+OBLITERATUS/Ornith-1.5-9B-OBLITERATED,OBLITERATUS,text-generation,433214,2026-08-27,mit,,,,False,IC2 original release
+mistralai/Mistral-7B-v0.1,mistralai,text-generation,430986,2023-09-20,apache-2.0,,,,False,IC2 chat model; IC6 recent
+moonshotai/Kimi-K2.6,moonshotai,image-text-to-text,428315,2026-04-14,other,1026.879376368,,,False,IC3 size
+poolside/Laguna-S-2.1-NVFP4,poolside,text-generation,427456,2026-07-02,openmdw-1.1,,,,False,IC2 original release
+AnkitAI/Parable-Qwen3-4B-Claude-Fable-5-GGUF,AnkitAI,text-generation,424827,2026-07-09,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.5-397B-NVFP4,ornith-ai,text-generation,424524,2026-08-18,mit,202.642785776,,,False,IC3 size
+Qwen/Qwen3-235B-A22B-Instruct-2507-FP8,Qwen,text-generation,420104,2025-07-21,apache-2.0,,,,False,IC2 original release
+Jackrong/Qwopus3.6-35B-A3B-Coder-MTP-GGUF,Jackrong,image-text-to-text,418818,2026-06-29,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-Coder-1.5B,Qwen,text-generation,417519,2024-09-18,apache-2.0,,,,False,IC6 recent
+DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF,DavidAU,image-text-to-text,417169,2026-05-01,apache-2.0,,,,False,IC2 original release
+OpenGVLab/InternVL3_5-GPT-OSS-20B-A4B-Preview-HF,OpenGVLab,image-text-to-text,417128,2025-08-29,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.0-35B-FP8,ornith-ai,text-generation,415900,2026-06-26,mit,35.107181936,,,False,IC3 size
+typhoon-ai/typhoon-ocr1.5-2b,typhoon-ai,image-text-to-text,412342,2025-11-10,apache-2.0,,,,False,IC2 original release
+dealignai/Ornith-1.5-9B-UNCENSORED-GGUF,dealignai,image-text-to-text,411902,2026-08-20,mit,,,,False,IC2 original release
+IlyaGusev/saiga_llama3_8b,IlyaGusev,text-generation,409083,2024-04-18,other,,,,False,IC6 recent
+allenai/Olmo-3-7B-Instruct,allenai,text-generation,406214,2025-11-19,apache-2.0,7.298011136,65536.0,unsloth/Olmo-3-7B-Instruct-GGUF,True,
+Qwen/Qwen3-4B-GGUF,Qwen,text-generation,404833,2025-05-05,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-122B-A10B-GPTQ-Int4,Qwen,image-text-to-text,403463,2026-03-03,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/small-Qwen3ForCausalLM,trl-internal-testing,text-generation,402211,2025-05-08,,,,,False,IC1 license
+Qwen/Qwen3-4B-Thinking-2507,Qwen,text-generation,400011,2025-08-05,apache-2.0,4.022468096,,,False,IC3 size
+FastFlowLM/GPT-OSS-20B-NPU2,FastFlowLM,text-generation,399272,2025-09-26,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-LlamaForCausalLM-3.2,trl-internal-testing,text-generation,398995,2024-11-25,,,,,False,IC1 license; IC6 recent
+tiiuae/falcon-7b,tiiuae,text-generation,396379,2023-04-24,apache-2.0,,,,False,IC2 chat model; IC6 recent
+tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF,tvall43,text-generation,396249,2026-06-14,apache-2.0,,,,False,IC2 original release
+QuantTrio/Qwen3.5-27B-AWQ,QuantTrio,image-text-to-text,395663,2026-02-26,apache-2.0,,,,False,IC2 original release
+Jackrong/Qwopus3.6-27B-Coder-Compat-MTP-GGUF,Jackrong,image-text-to-text,395097,2026-06-20,apache-2.0,,,,False,IC2 original release
+google/gemma-3-27b-it,google,image-text-to-text,394636,2025-03-01,gemma,,,,False,IC6 recent
+NousResearch/Hermes-3-Llama-3.1-8B,NousResearch,text-generation,393057,2024-07-28,llama3,,,,False,IC2 original release; IC6 recent
+thinkingmachines/Inkling-Small-NVFP4,thinkingmachines,image-text-to-text,389559,2026-07-27,apache-2.0,,,,False,IC2 original release
+bartowski/Qwen_Qwen3.6-35B-A3B-GGUF,bartowski,image-text-to-text,386375,2026-04-16,apache-2.0,,,,False,IC2 original release
+LGAI-EXAONE/EXAONE-3.5-7.8B-Instruct,LGAI-EXAONE,text-generation,383407,2024-12-01,other,,,,False,IC6 recent
+openbmb/MiniCPM-V-4.6,openbmb,image-text-to-text,382773,2026-04-13,apache-2.0,1.300428016,,,False,IC3 size
+google/gemma-4-31B-it-qat-w4a16-ct,google,image-text-to-text,382264,2026-06-04,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen-AgentWorld-35B-A3B-GGUF,unsloth,text-generation,382144,2026-06-24,apache-2.0,,,,False,IC2 original release
+sakamakismile/Qwen3.6-27B-Text-NVFP4-MTP,sakamakismile,text-generation,381237,2026-04-25,apache-2.0,,,,False,IC2 original release
+nvidia/NVIDIA-Nemotron-Nano-9B-v2,nvidia,text-generation,381156,2025-08-12,other,8.888227328,131072.0,bartowski/nvidia_NVIDIA-Nemotron-Nano-9B-v2-GGUF,True,
+microsoft/Phi-4-mini-instruct,microsoft,text-generation,378604,2025-02-19,mit,,,,False,IC6 recent
+Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF,Jackrong,image-text-to-text,376892,2026-06-11,apache-2.0,,,,False,IC2 original release
+prism-ml/Ternary-Bonsai-8B-gguf,prism-ml,text-generation,376883,2026-04-18,apache-2.0,,,,False,IC2 original release
+unsloth/mistral-7b-v0.3-bnb-4bit,unsloth,text-generation,374898,2024-05-22,apache-2.0,,,,False,IC2 original release; IC2 chat model; IC6 recent
+peft-internal-testing/opt-125m,peft-internal-testing,text-generation,374382,2025-11-19,,,,,False,IC1 license; IC2 chat model
+lmstudio-community/gemma-4-26B-A4B-it-QAT-MLX-4bit,lmstudio-community,image-text-to-text,374111,2026-06-04,apache-2.0,,,,False,IC2 original release
+abenzerps/Apodex-1.1-mini-GGUF,abenzerps,text-generation,373702,2026-08-24,apache-2.0,,,,False,IC2 original release
+thinkingmachines/Inkling,thinkingmachines,image-text-to-text,373673,2026-07-14,apache-2.0,952.377623626,,,False,IC3 size
+Qwen/Qwen3.5-9B-Base,Qwen,image-text-to-text,371054,2026-02-26,apache-2.0,9.653104368,262144.0,titan0115/Qwen3.5-9B-Base,True,
+unsloth/gemma-4-31B-it-GGUF,unsloth,image-text-to-text,370662,2026-04-01,apache-2.0,,,,False,IC2 original release
+RedHatAI/gemma-3-27b-it-quantized.w4a16,RedHatAI,image-text-to-text,368089,2025-06-04,gemma,,,,False,IC2 original release
+Voicelab/vlt5-base-keywords,Voicelab,text-generation,367399,2022-09-27,cc-by-4.0,,,,False,IC2 chat model; IC6 recent
+meta-llama/Llama-3.2-3B,meta-llama,text-generation,366681,2024-09-18,llama3.2,,,,False,IC2 chat model; IC6 recent
+michaelw9999/Qwen3.6-35B-A3B-NVFP4-MTP-GGUF,michaelw9999,text-generation,366461,2026-06-12,,,,,False,IC1 license; IC2 original release
+QuantTrio/Qwen3-Coder-30B-A3B-Instruct-AWQ,QuantTrio,text-generation,366357,2025-08-01,apache-2.0,,,,False,IC2 original release
+bartowski/Kwaipilot_KAT-Coder-V2.5-Dev-GGUF,bartowski,text-generation,365607,2026-07-23,apache-2.0,,,,False,IC2 original release
+nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16,nvidia,text-generation,364184,2026-08-01,other,31.577937344,262144.0,mradermacher/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16-i1-GGUF,True,
+XHToken/Spark-X2.5-4B-GGUF,XHToken,text-generation,363147,2026-08-28,apache-2.0,,,,False,IC2 original release
+HauhauCS/Gemma4-26B-A4B-QAT-Uncensored-HauhauCS-Balanced-MTP,HauhauCS,image-text-to-text,362505,2026-06-24,gemma,,,,False,IC2 original release
+ggml-org/gemma-4-26B-A4B-it-GGUF,ggml-org,image-text-to-text,361901,2026-04-01,apache-2.0,,,,False,IC2 original release
+RedHatAI/Llama-3.2-3B-Instruct-FP8-dynamic,RedHatAI,text-generation,361539,2024-09-25,llama3.2,,,,False,IC2 original release; IC6 recent
+RadixArk/Qwen3.8-Flash-Next-NVFP4,RadixArk,image-text-to-text,361418,2026-08-25,other,,,,False,IC2 original release
+Qwen/Qwen3-235B-A22B,Qwen,text-generation,361121,2025-04-27,apache-2.0,235.09363456,,,False,IC3 size
+neroued/Qwen3.8-27B-nvfp4-NInfer,neroued,image-text-to-text,361068,2026-08-06,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-VL-4B-Instruct-FP8,Qwen,image-text-to-text,360528,2025-10-11,apache-2.0,,,,False,IC2 original release
+RadixArk/Qwen3.8-27B-NVFP4-BF16-LMHead,RadixArk,image-text-to-text,358597,2026-08-20,apache-2.0,,,,False,IC2 original release
+LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-Final-GGUF,LuffyTheFox,image-text-to-text,358416,2026-07-13,apache-2.0,,,,False,IC2 original release
+swiss-ai/Apertus-v1.5-8B,swiss-ai,image-text-to-text,356296,2026-07-24,apache-2.0,8.903547555,,,False,IC7 GGUF
+webAI-Official/TwIL-LM3,webAI-Official,text-generation,356103,2026-08-03,other,,,,False,IC2 original release
+unsloth/Kimi-K2.7-Code-GGUF,unsloth,image-text-to-text,355957,2026-06-12,other,,,,False,IC2 original release
+ornith-ai/Ornith-1.5-35B-A3B,ornith-ai,text-generation,355213,2026-08-18,mit,35.951822704,,,False,IC3 size
+microsoft/Phi-3.5-mini-instruct,microsoft,text-generation,351899,2024-08-16,mit,,,,False,IC6 recent
+unsloth/Qwen3.6-35B-A3B-NVFP4-Fast,unsloth,image-text-to-text,350093,2026-07-10,apache-2.0,,,,False,IC2 original release
+EleutherAI/gpt-j-6b,EleutherAI,text-generation,349551,2022-03-02,apache-2.0,,,,False,IC2 chat model; IC6 recent
+cyankiwi/Qwen3.6-35B-A3B-AWQ-4bit,cyankiwi,image-text-to-text,348957,2026-04-16,apache-2.0,,,,False,IC2 original release
+AEON-7/Qwen3.6-35B-A3B-heretic-NVFP4,AEON-7,image-text-to-text,348306,2026-04-17,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2.5-3B,Qwen,text-generation,345647,2024-09-15,other,,,,False,IC6 recent
+unsloth/GLM-5.2-GGUF,unsloth,text-generation,344219,2026-06-17,mit,,,,False,IC2 original release
+Qwen/Qwen3-VL-32B-Instruct,Qwen,image-text-to-text,342652,2025-10-19,apache-2.0,33.357390064,,,False,IC3 size
+incoai/Qwen3.8-27B-DFlash2,incoai,text-generation,341296,2026-08-18,apache-2.0,,,,False,IC2 original release; IC2 chat model
+deepseek-ai/DeepSeek-R1-Distill-Qwen-14B,deepseek-ai,text-generation,340275,2025-01-20,mit,,,,False,IC6 recent
+Qwen/Qwen3.5-35B-A3B-GPTQ-Int4,Qwen,image-text-to-text,340065,2026-03-03,apache-2.0,,,,False,IC2 original release
+codellama/CodeLlama-7b-hf,codellama,text-generation,338816,2023-08-24,llama2,,,,False,IC2 chat model; IC6 recent
+nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-FP8,nvidia,text-generation,337944,2025-12-06,other,,,,False,IC2 original release
+ornith-ai/Ornith-1.5-397B-FP8,ornith-ai,text-generation,337579,2026-08-18,mit,403.397928944,,,False,IC3 size
+Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF,Jackrong,image-text-to-text,336074,2026-04-29,apache-2.0,,,,False,IC2 original release
+microsoft/Phi-3-mini-4k-instruct,microsoft,text-generation,335020,2024-04-22,mit,,,,False,IC6 recent
+FINAL-Bench/POCKET-26B-GGUF,FINAL-Bench,text-generation,333910,2026-07-24,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-14B-Base,Qwen,text-generation,333113,2025-04-28,apache-2.0,14.7683072,32768.0,mradermacher/Qwen3-14B-Base-i1-GGUF,True,
+google/gemma-4-26B-A4B-it-qat-q4_0-unquantized,google,image-text-to-text,330378,2026-04-29,apache-2.0,26.544131376,262144.0,mradermacher/gemma-4-26B-A4B-it-qat-q4_0-unquantized-i1-GGUF,True,
+alpindale/Llama-Guard-3-1B,alpindale,text-generation,330086,2024-09-25,llama3.2,,,,False,IC6 recent
+empero-ai/Qwythos-27B-v1-GGUF,empero-ai,image-text-to-text,328911,2026-07-14,apache-2.0,,,,False,IC2 original release
+bartowski/Meta-Llama-3.1-8B-Instruct-GGUF,bartowski,text-generation,327601,2024-07-23,llama3.1,,,,False,IC2 original release; IC6 recent
+LiquidAI/LFM2.5-1.2B-Instruct-GGUF,LiquidAI,text-generation,327357,2026-01-04,other,,,,False,IC2 original release
+Qwen/Qwen3-VL-235B-A22B-Instruct,Qwen,image-text-to-text,325971,2025-09-22,apache-2.0,235.670022896,,,False,IC3 size
+lmstudio-community/Qwen3.6-27B-MLX-4bit,lmstudio-community,image-text-to-text,325795,2026-04-22,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.5-35B-A3B-MLX,ornith-ai,text-generation,325531,2026-08-18,,,,,False,IC1 license; IC2 original release
+RedHatAI/gemma-4-31B-it-FP8-block,RedHatAI,image-text-to-text,324878,2026-04-03,apache-2.0,,,,False,IC2 original release
+AnkitAI/Parable-Granite-4.1-3B-Claude-Fable-5-GGUF,AnkitAI,text-generation,323734,2026-07-13,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-0.8B-Base,Qwen,image-text-to-text,323725,2026-02-28,apache-2.0,0.873438784,,,False,IC3 size
+Qwen/Qwen2.5-Math-1.5B-Instruct,Qwen,text-generation,322702,2024-09-16,apache-2.0,,,,False,IC6 recent
+DavidAU/Qwen3.5-9B-Claude-4.6-HighIQ-INSTRUCT-HERETIC-UNCENSORED,DavidAU,image-text-to-text,321686,2026-03-04,apache-2.0,,,,False,IC2 original release
+KyleHessling1/Qwopus3.6-27B-Fusion-GGUF,KyleHessling1,text-generation,320885,2026-07-20,other,,,,False,IC2 original release
+utter-project/EuroLLM-22B-Instruct-2512,utter-project,text-generation,320719,2025-12-05,apache-2.0,22.637328384,32768.0,bartowski/utter-project_EuroLLM-22B-Instruct-2512-GGUF,True,
+lmstudio-community/Qwen3.6-27B-MLX-8bit,lmstudio-community,image-text-to-text,319656,2026-06-02,apache-2.0,,,,False,IC2 original release
+AnkitAI/Parable-Granite-4.1-8B-Claude-Fable-5-GGUF,AnkitAI,text-generation,319577,2026-07-13,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-2B-GGUF,unsloth,image-text-to-text,318628,2026-02-28,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3.5-122B-A10B,Qwen,image-text-to-text,318420,2026-02-24,apache-2.0,125.086497008,,,False,IC3 size
+unsloth/gemma-4-E4B-it-unsloth-bnb-4bit,unsloth,image-text-to-text,317606,2026-04-02,apache-2.0,,,,False,IC2 original release
+google/medgemma-1.5-4b-it,google,image-text-to-text,316773,2026-01-07,other,4.300079472,,,False,IC3 size
+GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF,GnLOLot,text-generation,316408,2026-07-13,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.6-27B-MLX-6bit,lmstudio-community,image-text-to-text,315212,2026-06-02,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-27B-GGUF,unsloth,image-text-to-text,314001,2026-02-24,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3-VL-4B-Instruct-GGUF,unsloth,image-text-to-text,313835,2025-10-30,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.6-27B-MLX-5bit,lmstudio-community,image-text-to-text,313571,2026-06-02,apache-2.0,,,,False,IC2 original release
+XLabs-AI/xflux_text_encoders,XLabs-AI,text-generation,313215,2024-08-11,apache-2.0,,,,False,IC2 chat model; IC6 recent
+RadixArk/Qwen3.8-27B-DSpark,RadixArk,text-generation,312178,2026-08-14,other,,,,False,IC2 chat model
+z-lab/Qwen3.8-27B-DFlash2,z-lab,text-generation,312104,2026-08-15,apache-2.0,,,,False,IC2 original release; IC2 chat model
+bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF,bytkim,text-generation,311849,2026-06-02,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-Next-80B-A3B-Instruct,Qwen,text-generation,309672,2025-09-09,apache-2.0,81.32486272,,,False,IC3 size
+DavidAU/Qwen3.6-27B-Heretic-Uncensored-FINETUNE-NEO-CODE-Di-IMatrix-MAX-GGUF,DavidAU,image-text-to-text,309190,2026-04-29,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2-7B-Instruct,Qwen,text-generation,309126,2024-06-04,apache-2.0,,,,False,IC6 recent
+deepseek-ai/DeepSeek-V3.1,deepseek-ai,text-generation,308993,2025-08-21,mit,,,,False,IC2 original release
+state-spaces/mamba-130m-hf,state-spaces,text-generation,308859,2024-03-06,,,,,False,IC1 license; IC2 chat model; IC6 recent
+moonshotai/Kimi-K2.5,moonshotai,image-text-to-text,308847,2026-01-01,other,1026.879376368,,,False,IC3 size
+ai-sage/GigaChat3.1-Audio-10B-A1.8B,ai-sage,text-generation,308584,2026-07-13,mit,,,,False,IC3 size
+Qwen/Qwen2.5-72B-Instruct,Qwen,text-generation,308483,2024-09-16,other,,,,False,IC6 recent
+unsloth/Step-3.7-Flash-GGUF,unsloth,image-text-to-text,307872,2026-05-29,apache-2.0,,,,False,IC2 original release
+AtomicChat/Ling-3.0-flash-GGUF,AtomicChat,text-generation,306288,2026-08-04,mit,,,,False,IC2 original release
+sarvamai/sarvam-30b,sarvamai,text-generation,304777,2026-03-03,apache-2.0,32.152650368,,,False,IC3 size
+InternScience/Agents-A1-4B,InternScience,text-generation,303578,2026-07-13,apache-2.0,4.539265536,,,False,IC3 size
+AngelSlim/Hy3-GGUF,AngelSlim,text-generation,302611,2026-07-13,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen2-0.5B-Instruct,Qwen,text-generation,302215,2024-06-03,apache-2.0,,,,False,IC6 recent
+meta-models/Muse-Glimmer-30B,meta-models,image-text-to-text,300519,2026-08-09,apache-2.0,29.776626688,131072.0,meta-models/Muse-Glimmer-30B-GGUF,True,
+QuantTrio/Qwen3.6-27B-AWQ,QuantTrio,image-text-to-text,299860,2026-04-22,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-0.6B-FP8,Qwen,text-generation,297982,2025-04-28,apache-2.0,,,,False,IC2 original release
+ornith-ai/Ornith-1.0-397B-FP8,ornith-ai,text-generation,297341,2026-06-25,mit,396.802360816,,,False,IC3 size
+ucbye/Qwen3-Coder-Next-NVFP4-GB10,ucbye,text-generation,296931,2026-04-29,apache-2.0,,,,False,IC2 original release
+GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF,GnLOLot,text-generation,296496,2026-07-03,apache-2.0,,,,False,IC2 original release
+RedHatAI/Llama-3.2-1B-Instruct-FP8-dynamic,RedHatAI,text-generation,296480,2024-09-25,llama3.2,,,,False,IC2 original release; IC6 recent
+bartowski/Qwen_Qwen3.5-4B-GGUF,bartowski,image-text-to-text,296104,2026-02-27,apache-2.0,,,,False,IC2 original release
+HuggingFaceTB/SmolLM2-360M-Instruct,HuggingFaceTB,text-generation,295697,2024-10-31,apache-2.0,,,,False,IC2 original release; IC6 recent
+MaziyarPanahi/Qwen3-0.6B-GGUF,MaziyarPanahi,text-generation,294417,2025-04-28,,,,,False,IC1 license; IC2 original release
+unsloth/Qwen2.5-14B-bnb-4bit,unsloth,text-generation,294191,2024-09-23,apache-2.0,,,,False,IC2 original release; IC2 chat model; IC6 recent
+Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF,Jackrong,image-text-to-text,293819,2026-05-18,apache-2.0,,,,False,IC2 original release
+deepseek-ai/DeepSeek-R1-Distill-Qwen-7B,deepseek-ai,text-generation,293176,2025-01-20,mit,,,,False,IC6 recent
+Qwen/Qwen2.5-Coder-7B-Instruct-GGUF,Qwen,text-generation,292449,2024-09-18,apache-2.0,,,,False,IC2 original release; IC6 recent
+ornith-ai/Ornith-1.5-9B-MLX-8bit,ornith-ai,text-generation,291974,2026-08-18,,,,,False,IC1 license; IC2 original release
+facebook/opt-350m,facebook,text-generation,291629,2022-05-11,other,,,,False,IC2 chat model; IC6 recent
+ornith-ai/Ornith-1.5-9B-MLX,ornith-ai,text-generation,291536,2026-08-18,,,,,False,IC1 license; IC2 original release
+bigcode/tiny_starcoder_py,bigcode,text-generation,291320,2023-05-15,bigcode-openrail-m,,,,False,IC2 chat model; IC6 recent
+lmstudio-community/DeepSeek-R1-0528-Qwen3-8B-MLX-4bit,lmstudio-community,text-generation,290978,2025-05-29,mit,,,,False,IC2 original release
+Jackrong/Qwopus3.6-27B-v2-MTP-GGUF,Jackrong,image-text-to-text,288662,2026-05-21,apache-2.0,,,,False,IC2 original release
+nvidia/Qwen3.6-27B-NVFP4,nvidia,text-generation,288117,2026-06-22,apache-2.0,,,,False,IC2 original release
+RedHatAI/Qwen3-Coder-Next-FP8-dynamic,RedHatAI,text-generation,287292,2026-02-27,apache-2.0,,,,False,IC2 original release
+janhq/Jan-v3.5-4B-gguf,janhq,text-generation,286950,2026-03-23,apache-2.0,,,,False,IC2 original release
+Jackrong/Qwopus3.8-27B-Flash-GGUF,Jackrong,image-text-to-text,282043,2026-09-04,apache-2.0,,,,False,IC2 original release
+unsloth/Muse-Glimmer-30B-GGUF,unsloth,image-text-to-text,281419,2026-08-10,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.6-35B-A3B-MLX-4bit,lmstudio-community,image-text-to-text,280454,2026-04-16,apache-2.0,,,,False,IC2 original release
+bartowski/Qwen_Qwen3.5-35B-A3B-GGUF,bartowski,image-text-to-text,275446,2026-02-24,apache-2.0,,,,False,IC2 original release
+google/paligemma-3b-pt-224,google,image-text-to-text,273971,2024-05-12,gemma,,,,False,IC2 chat model; IC6 recent
+bartowski/google_gemma-4-E2B-it-GGUF,bartowski,image-text-to-text,267713,2026-04-02,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit,unsloth,image-text-to-text,262978,2025-10-14,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.6-35B-A3B-MLX-8bit,lmstudio-community,image-text-to-text,262154,2026-04-16,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-122B-A10B-GGUF,unsloth,image-text-to-text,261278,2026-02-24,apache-2.0,,,,False,IC2 original release
+lmstudio-community/Qwen3.6-35B-A3B-MLX-6bit,lmstudio-community,image-text-to-text,260664,2026-04-16,apache-2.0,,,,False,IC2 original release
+stepfun-ai/Step-3.7-Flash-NVFP4,stepfun-ai,image-text-to-text,259210,2026-05-27,apache-2.0,103.810330432,,,False,IC3 size
+bartowski/Qwen_Qwen3.5-2B-GGUF,bartowski,image-text-to-text,256670,2026-03-01,apache-2.0,,,,False,IC2 original release
+neroued/Qwen3.8-27B-NInfer,neroued,image-text-to-text,256347,2026-08-06,apache-2.0,,,,False,IC2 original release
+unsloth/Kimi-K2.6-GGUF,unsloth,image-text-to-text,253078,2026-04-20,other,,,,False,IC2 original release
+baidu/Qianfan-OCR,baidu,image-text-to-text,250298,2026-03-18,apache-2.0,4.741408256,,,False,IC3 size
+Jackrong/Qwopus3.6-27B-v1-preview-GGUF,Jackrong,image-text-to-text,244736,2026-04-23,apache-2.0,,,,False,IC2 original release
+Jackrong/Qwopus3.6-35B-A3B-v1-GGUF,Jackrong,image-text-to-text,243920,2026-05-06,apache-2.0,,,,False,IC2 original release
+ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF,ISTA-DASLab,image-text-to-text,242469,2026-09-07,apache-2.0,,,,False,IC2 original release
+orcarouter/Qwen3.8-27B-Uncensored-FP8,orcarouter,image-text-to-text,242202,2026-08-15,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-Qwen3_5ForConditionalGeneration-NoThink,trl-internal-testing,image-text-to-text,235225,2026-05-22,,,,,False,IC1 license
+bartowski/Qwen_Qwen3.5-0.8B-GGUF,bartowski,image-text-to-text,234359,2026-03-01,apache-2.0,,,,False,IC2 original release
+sukhrobnurali/qwen3vl-resume-parser,sukhrobnurali,image-text-to-text,233609,2026-02-16,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-Gemma3ForConditionalGeneration,trl-internal-testing,image-text-to-text,232630,2025-07-22,,,,,False,IC1 license
+Qwen/Qwen3-VL-8B-Instruct-GGUF,Qwen,image-text-to-text,231870,2025-10-31,apache-2.0,,,,False,IC2 original release
+aipib/Florence-2-VQAJP2,aipib,image-text-to-text,231474,2025-02-27,mit,,,,False,IC2 original release; IC2 chat model; IC6 recent
+Qwen/Qwen3.5-2B-Base,Qwen,image-text-to-text,230002,2026-02-28,apache-2.0,2.274069824,,,False,IC3 size
+orcarouter/Qwen3.8-Flash-Next-Uncensored-GGUF,orcarouter,image-text-to-text,228914,2026-08-26,apache-2.0,,,,False,IC2 original release
+RedHatAI/gemma-4-31B-it-FP8-dynamic,RedHatAI,image-text-to-text,228009,2026-04-06,apache-2.0,,,,False,IC2 original release
+QuantTrio/Qwen3-VL-32B-Instruct-AWQ,QuantTrio,image-text-to-text,226990,2025-10-22,apache-2.0,,,,False,IC2 original release
+llmfan46/gemma-4-Ortenzya-The-Creative-Wordsmith-31B-it-uncensored-heretic-GGUF,llmfan46,image-text-to-text,226018,2026-05-13,apache-2.0,,,,False,IC2 original release
+microsoft/Florence-2-base-ft,microsoft,image-text-to-text,225846,2024-06-15,mit,,,,False,IC2 chat model; IC6 recent
+liuhaotian/llava-v1.5-7b,liuhaotian,image-text-to-text,224996,2023-10-05,,,,,False,IC1 license; IC2 chat model; IC6 recent
+unsloth/Qwen3.5-397B-A17B-GGUF,unsloth,image-text-to-text,224046,2026-02-16,apache-2.0,,,,False,IC2 original release
+Hcompany/Holo-3.1-35B-A3B-GGUF,Hcompany,image-text-to-text,220585,2026-06-02,apache-2.0,,,,False,IC2 original release
+google/paligemma-3b-ft-cococap-448,google,image-text-to-text,220445,2024-05-13,gemma,,,,False,IC2 chat model; IC6 recent
+chimingw/Qwen3.8-27B-Uncensored-OrcaRouter-GGUF,chimingw,image-text-to-text,219716,2026-08-15,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-VL-32B-Instruct-FP8,Qwen,image-text-to-text,217497,2025-10-19,apache-2.0,,,,False,IC2 original release
+nvidia/Qwen3.8-Flash-Next-NVFP4,nvidia,image-text-to-text,211809,2026-09-02,other,,,,False,IC2 original release
+cyankiwi/gemma-4-31B-it-qat-AWQ-INT4,cyankiwi,image-text-to-text,209303,2026-06-06,apache-2.0,,,,False,IC2 original release
+maci0/Qwopus3.6-27B-Coder-NVFP4,maci0,image-text-to-text,206853,2026-06-29,apache-2.0,,,,False,IC2 original release
+huihui-ai/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-MTP-GGUF,huihui-ai,image-text-to-text,205231,2026-05-19,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-0.8B-GGUF,unsloth,image-text-to-text,204578,2026-03-01,apache-2.0,,,,False,IC2 original release
+huihui-ai/Qwen2.5-VL-7B-Instruct-abliterated,huihui-ai,image-text-to-text,204154,2025-02-17,apache-2.0,,,,False,IC2 original release; IC6 recent
+trl-internal-testing/tiny-Qwen3_5MoeForConditionalGeneration-3.6,trl-internal-testing,image-text-to-text,203299,2026-04-25,,,,,False,IC1 license
+allenai/olmOCR-2-7B-1025,allenai,image-text-to-text,203297,2025-10-06,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-LlavaForConditionalGeneration,trl-internal-testing,image-text-to-text,202488,2024-11-25,,,,,False,IC1 license; IC6 recent
+Qwen/Qwen3.5-397B-A17B,Qwen,image-text-to-text,200661,2026-02-16,apache-2.0,403.397928944,,,False,IC3 size
+ATH-MaaS/OvisOCR2,ATH-MaaS,image-text-to-text,198701,2026-07-13,apache-2.0,,,,False,IC2 original release
+moonshotai/Kimi-VL-A3B-Instruct,moonshotai,image-text-to-text,198132,2025-04-09,mit,16.407657776,131072.0,mradermacher/Kimi-VL-A3B-Instruct-GGUF,True,
+Qwen/Qwen3.5-27B-FP8,Qwen,image-text-to-text,195543,2026-02-25,apache-2.0,,,,False,IC2 original release
+AxionML/Qwen3.5-9B-NVFP4,AxionML,image-text-to-text,193863,2026-03-03,apache-2.0,,,,False,IC2 original release
+DavidAU/Qwen3.8-27B-TWIN-TURBO-Fable-Cold-Fusion-709-L-Uncensored-NM-DAU-NEO-MTP-GGUF,DavidAU,image-text-to-text,193659,2026-09-10,apache-2.0,,,,False,IC2 original release
+opendatalab/MinerU2.5-Pro-2604-1.2B,opendatalab,image-text-to-text,192057,2026-04-02,apache-2.0,1.156026624,,,False,IC3 size
+gaunernst/gemma-3-12b-it-int4-awq,gaunernst,image-text-to-text,191007,2025-03-18,gemma,,,,False,IC2 original release; IC6 recent
+HauhauCS/Qwen3.5-122B-A10B-Uncensored-HauhauCS-Aggressive,HauhauCS,image-text-to-text,190918,2026-03-22,apache-2.0,,,,False,IC2 original release
+Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF,Jackrong,image-text-to-text,190284,2026-04-16,apache-2.0,,,,False,IC2 original release
+lightonai/LightOnOCR-2-1B,lightonai,image-text-to-text,189171,2026-01-16,apache-2.0,1.005647872,,,False,IC3 size
+llava-hf/llava-1.5-13b-hf,llava-hf,image-text-to-text,188637,2023-12-05,llama2,,,,False,IC6 recent
+nanonets/Nanonets-OCR-s,nanonets,image-text-to-text,186830,2025-06-10,,,,,False,IC1 license; IC2 original release
+orcarouter/Qwen3.8-27B-Uncensored-GGUF,orcarouter,image-text-to-text,185127,2026-08-16,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-VL-30B-A3B-Instruct-FP8,Qwen,image-text-to-text,184524,2025-10-01,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-LlavaNextForConditionalGeneration,trl-internal-testing,image-text-to-text,183919,2024-11-25,,,,,False,IC1 license; IC6 recent
+huihui-ai/Huihui-DeepSeek-V4-Flash-Vision-Exp-abliterated-GGUF,huihui-ai,image-text-to-text,183140,2026-09-09,mit,,,,False,IC2 original release
+cyankiwi/gemma-4-31B-it-AWQ-4bit,cyankiwi,image-text-to-text,182654,2026-04-02,apache-2.0,,,,False,IC2 original release
+ukisai/Swift-Qwen3.8-27B-GGUF,ukisai,image-text-to-text,181565,2026-09-11,other,,,,False,IC2 original release
+nvidia/NVIDIA-Nemotron-Parse-v1.1,nvidia,image-text-to-text,179427,2025-11-15,other,0.956758025,,,False,IC3 size
+zai-org/GLM-4.1V-9B-Thinking,zai-org,image-text-to-text,179247,2025-06-28,mit,10.292777472,65536.0,unsloth/GLM-4.1V-9B-Thinking-GGUF,True,
+ibm-granite/granite-vision-4.1-4b,ibm-granite,image-text-to-text,176948,2026-04-16,apache-2.0,3.997203904,,,False,IC3 size
+google/gemma-3n-E2B-it,google,image-text-to-text,176168,2025-06-12,gemma,5.439438272,,,False,IC3 size
+Infomaniak-AI/vllm-translategemma-12b-it,Infomaniak-AI,image-text-to-text,175521,2026-02-03,gemma,13.19420376,131072.0,,False,IC7 GGUF
+thinkingmachines/Inkling-NVFP4,thinkingmachines,image-text-to-text,172699,2026-07-14,apache-2.0,,,,False,IC2 original release
+cyankiwi/Qwen3.5-27B-AWQ-4bit,cyankiwi,image-text-to-text,172574,2026-02-25,apache-2.0,,,,False,IC2 original release
+unsloth/Qwen3.5-35B-A3B-GGUF,unsloth,image-text-to-text,171258,2026-02-24,apache-2.0,,,,False,IC2 original release
+trl-internal-testing/tiny-Qwen2VLForConditionalGeneration,trl-internal-testing,image-text-to-text,169930,2025-07-20,,,,,False,IC1 license
+CohereLabs/North-Micro-Vision-Instruct,CohereLabs,image-text-to-text,169195,2026-08-10,apache-2.0,2.484847856,,,False,IC3 size
+HuggingFaceTB/SmolVLM2-2.2B-Instruct,HuggingFaceTB,image-text-to-text,168991,2025-02-08,apache-2.0,,,,False,IC6 recent
+bartowski/Fara1.5-27B-GGUF,bartowski,image-text-to-text,167365,2026-07-22,mit,,,,False,IC2 original release
+byteshape/Qwen3.8-27B-GGUF,byteshape,image-text-to-text,167216,2026-08-18,apache-2.0,,,,False,IC2 original release
+MiniMaxAI/MiniMax-M3,MiniMaxAI,image-text-to-text,165796,2026-06-02,other,427.04014016,,,False,IC3 size
+unsloth/Qwen2.5-VL-7B-Instruct-GGUF,unsloth,image-text-to-text,164339,2025-05-11,apache-2.0,,,,False,IC2 original release
+bartowski/Fara1.5-9B-GGUF,bartowski,image-text-to-text,163419,2026-07-22,mit,,,,False,IC2 original release
+RedHatAI/Qwen3.5-9B-quantized.w4a16,RedHatAI,image-text-to-text,162970,2026-04-24,apache-2.0,,,,False,IC2 original release
+ggml-org/Qwen3.6-35B-A3B-GGUF,ggml-org,image-text-to-text,162817,2026-04-18,apache-2.0,,,,False,IC2 original release
+coder3101/Qwen3.5-27B-heretic,coder3101,image-text-to-text,161914,2026-02-25,apache-2.0,,,,False,IC2 original release
+bartowski/Fara1.5-4B-GGUF,bartowski,image-text-to-text,161668,2026-07-22,mit,,,,False,IC2 original release
+meta-llama/Llama-4-Scout-17B-16E-Instruct,meta-llama,image-text-to-text,159371,2025-04-02,other,108.641793536,,,False,IC3 size
+bartowski/Qwen_Qwen3.5-27B-GGUF,bartowski,image-text-to-text,159323,2026-02-24,apache-2.0,,,,False,IC2 original release
+typhoon-ai/typhoon-ocr-3b,typhoon-ai,image-text-to-text,159300,2025-05-27,apache-2.0,,,,False,IC2 original release
+Mungert/UI-TARS-1.5-7B-GGUF,Mungert,image-text-to-text,158196,2025-05-18,apache-2.0,,,,False,IC2 original release
+datalab-to/lift,datalab-to,image-text-to-text,157652,2026-06-19,openrail,9.653104368,262144.0,prithivMLmods/lift-GGUF,True,
+QuantTrio/Qwen3.5-4B-AWQ,QuantTrio,image-text-to-text,156667,2026-03-04,apache-2.0,,,,False,IC2 original release
+sakamakismile/Ornith-1.0-35B-NVFP4,sakamakismile,image-text-to-text,156416,2026-06-25,mit,,,,False,IC2 original release
+huihui-ai/Huihui-Qwen3.5-27B-abliterated,huihui-ai,image-text-to-text,155898,2026-02-27,apache-2.0,,,,False,IC2 original release
+gnnavesg/Ornith-1.0-35B-NVFP4,gnnavesg,image-text-to-text,155817,2026-07-11,mit,,,,False,IC2 original release
+bartowski/tencent_UI-Mate-27B-GGUF,bartowski,image-text-to-text,155805,2026-08-18,apache-2.0,,,,False,IC2 original release
+bartowski/tencent_UI-Mate-9B-GGUF,bartowski,image-text-to-text,155711,2026-08-18,apache-2.0,,,,False,IC2 original release
+unsloth/gemma-3n-E4B-it,unsloth,image-text-to-text,155521,2025-06-26,gemma,,,,False,IC2 original release
+Qwen/Qwen3-VL-8B-Thinking,Qwen,image-text-to-text,153717,2025-10-11,apache-2.0,8.767123696,262144.0,Qwen/Qwen3-VL-8B-Thinking-GGUF,True,
+mistral-experimental/pixtral-12b,mistral-experimental,image-text-to-text,152160,2024-09-13,apache-2.0,,,,False,IC6 recent
+bartowski/orcarouter_Qwen3.8-27B-Uncensored-GGUF,bartowski,image-text-to-text,152088,2026-08-27,apache-2.0,,,,False,IC2 original release
+bartowski/BAAI_AREX-Turbo-GGUF,bartowski,image-text-to-text,152049,2026-07-25,apache-2.0,,,,False,IC2 original release
+Qwen/Qwen3-VL-4B-Instruct-GGUF,Qwen,image-text-to-text,148375,2025-10-31,apache-2.0,,,,False,IC2 original release

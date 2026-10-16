@@ -1,0 +1,11 @@
+item_id,source,IQR_synthetic,IQR_human,ratio
+A1,Panel (all LLMs),5.0,5.0,1.0
+A2,Panel (all LLMs),0.0,0.0,
+A3,Panel (all LLMs),5.0,12.5,0.4
+A4,Panel (all LLMs),7.5,5.0,1.5
+A5,Panel (all LLMs),5.0,0.0,
+C1,Panel (all LLMs),4.5,0.0,
+C2,Panel (all LLMs),7.0,0.0,
+C3,Panel (all LLMs),10.0,8.5,1.1764705882352942
+D1,Panel (all LLMs),16.0,,
+D2,Panel (all LLMs),15.0,0.0,

@@ -1,0 +1,28 @@
+% Hidden-formulation inverse items
+% label: tab:blockA
+\begin{tabular}{lrrrr}
+\toprule
+source & family\_accuracy & MAE\_median & coverage80 & interval\_score \\
+\midrule
+Baseline & 0.80 & 6.14 & NaN & NaN \\
+ML & 0.60 & 7.03 & NaN & NaN \\
+ML (no AD) & 1.00 & 6.65 & NaN & NaN \\
+Panel (all LLMs) & 0.36 & 10.00 & 0.25 & 77.06 \\
+gemma-4-26b-a4b-it & 0.30 & 9.50 & 0.25 & 68.98 \\
+gemma-4-26b-a4b-it (knowledge) & 0.34 & 7.00 & 0.28 & 73.06 \\
+gemma-4-26b-a4b-it (nopersona) & 0.46 & 9.38 & 0.32 & 63.25 \\
+glm-4.7-flash & 0.28 & 14.00 & 0.37 & 69.38 \\
+glm-4.7-flash (knowledge) & 0.33 & 10.30 & 0.32 & 79.72 \\
+glm-4.7-flash (nopersona) & 0.33 & 10.37 & 0.36 & 64.10 \\
+gpt-oss-20b & 0.02 & 8.38 & 0.30 & 75.28 \\
+gpt-oss-20b (knowledge) & 0.11 & 4.50 & 0.44 & 64.68 \\
+gpt-oss-20b (nopersona) & 0.04 & 8.12 & 0.31 & 63.96 \\
+human & 0.37 & 7.50 & 0.67 & 79.33 \\
+intern-s1-mini & 0.60 & 11.00 & 0.21 & 82.65 \\
+intern-s1-mini (knowledge) & 0.55 & 8.00 & 0.33 & 71.38 \\
+intern-s1-mini (nopersona) & 0.61 & 10.00 & 0.23 & 76.25 \\
+qwen3-vl-8b-instruct & 0.60 & 10.00 & 0.27 & 73.89 \\
+qwen3-vl-8b-instruct (knowledge) & 0.46 & 8.00 & 0.26 & 66.69 \\
+qwen3-vl-8b-instruct (nopersona) & 0.60 & 8.00 & 0.22 & 63.87 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,5 @@
+classifier,MW_10,MW_20,MW_30,OW_10,OW_20,mean
+SVC,0.9,1.0,1.0,0.9,1.0,0.96
+Logistic regression,0.5,1.0,1.0,0.9,1.0,0.8800000000000001
+Random forest,0.2,1.0,1.0,0.6,1.0,0.76
+Most-frequent baseline,1.0,1.0,1.0,0.0,0.0,0.6

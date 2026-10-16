@@ -1,0 +1,17 @@
+file,requests,valid,excluded,exclusion_rate,valid_after_retry
+gemma-4-26b-a4b-it_knowledge,550,550,0,0.0,8
+gemma-4-26b-a4b-it_main,1100,1099,1,0.0009090909090909091,13
+gemma-4-26b-a4b-it_nopersona,550,550,0,0.0,0
+glm-4.7-flash_knowledge,550,550,0,0.0,10
+glm-4.7-flash_main,1100,1099,1,0.0009090909090909091,73
+glm-4.7-flash_nopersona,550,550,0,0.0,43
+gpt-oss-20b_knowledge,550,550,0,0.0,19
+gpt-oss-20b_main,1100,1100,0,0.0,40
+gpt-oss-20b_nopersona,550,550,0,0.0,11
+human_main,32,32,0,0.0,0
+intern-s1-mini_knowledge,550,550,0,0.0,6
+intern-s1-mini_main,1100,1100,0,0.0,70
+intern-s1-mini_nopersona,550,550,0,0.0,16
+qwen3-vl-8b-instruct_knowledge,550,550,0,0.0,0
+qwen3-vl-8b-instruct_main,1100,1100,0,0.0,0
+qwen3-vl-8b-instruct_nopersona,550,550,0,0.0,0

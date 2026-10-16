@@ -1,0 +1,12 @@
+expert_1 C2: not answered -> coded as 'don't know' (feasibility uncertain, no family or content); provisional, to be confirmed by the expert
+expert_1 C3: not answered -> coded as 'don't know' (feasibility uncertain, no family or content); provisional, to be confirmed by the expert
+expert_1 D1: not answered -> coded as 'don't know' (feasibility uncertain, no family or content); provisional, to be confirmed by the expert
+expert_1 D2: not answered -> coded as 'don't know' (feasibility uncertain, no family or content); provisional, to be confirmed by the expert
+expert_2 A2: interval [10.0,15.0] does not contain 20.0 -> interval dropped
+expert_2 A5: family 'none' with feasibility infeasible and no content -> coded infeasible
+expert_2 D1: family 'none' with feasibility infeasible and no content -> coded infeasible
+expert_3 B5 strain_at_break: interval [2.5,2.6] does not contain 2.4 -> interval dropped
+expert_3 A1: content '100 % PLA' -> 0 wt.% (neat PLA)
+expert_3 A3: two alternatives given ('none (neat PLA) or MW', 'Filler content 0wt.% or 20wt.%') -> missing
+expert_3 C1: two alternatives given ('none (neat PLA)  or  MW', '20') -> missing
+expert_3 C2: two alternatives given ('none (neat PLA)  or  MW', '20') -> missing

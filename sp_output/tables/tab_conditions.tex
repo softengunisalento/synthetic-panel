@@ -1,0 +1,23 @@
+% Effect of panel design
+% label: tab:conditions
+\begin{tabular}{llrrr}
+\toprule
+model & condition & MAE\_median\_blockA & family\_accuracy\_blockA & mean\_IQR\_blockA \\
+\midrule
+gemma-4-26b-a4b-it & knowledge & 7.00 & 0.34 & 7.50 \\
+gemma-4-26b-a4b-it & main & 9.50 & 0.30 & 4.95 \\
+gemma-4-26b-a4b-it & nopersona & 9.38 & 0.46 & NaN \\
+glm-4.7-flash & knowledge & 10.30 & 0.33 & 13.21 \\
+glm-4.7-flash & main & 14.00 & 0.28 & 12.30 \\
+glm-4.7-flash & nopersona & 10.37 & 0.33 & 6.43 \\
+gpt-oss-20b & knowledge & 4.50 & 0.11 & 8.25 \\
+gpt-oss-20b & main & 8.38 & 0.02 & NaN \\
+gpt-oss-20b & nopersona & 8.12 & 0.04 & NaN \\
+intern-s1-mini & knowledge & 8.00 & 0.55 & 9.50 \\
+intern-s1-mini & main & 11.00 & 0.60 & 4.40 \\
+intern-s1-mini & nopersona & 10.00 & 0.61 & 7.40 \\
+qwen3-vl-8b-instruct & knowledge & 8.00 & 0.46 & 5.50 \\
+qwen3-vl-8b-instruct & main & 10.00 & 0.60 & 3.00 \\
+qwen3-vl-8b-instruct & nopersona & 8.00 & 0.60 & 0.00 \\
+\bottomrule
+\end{tabular}
